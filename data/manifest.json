@@ -1,0 +1,430 @@
+{
+  "sources": [
+    {
+      "source_id": "huck_finn_early_journey",
+      "title": "Adventures of Huckleberry Finn — Chapters I–XII",
+      "path": "data/huck_finn_pg76.txt",
+      "source_path_or_url": "https://www.gutenberg.org/ebooks/76",
+      "license_or_permission": "Project Gutenberg eBook #76; the source states public domain in the USA and includes its full license. Mark Twain died in 1910; this noncommercial educational corpus is used as a public-domain literary work. The original source file and its Project Gutenberg notice/license are retained in this repository.",
+      "accessed_at": "2026-11-14",
+      "snapshot_or_version": "Project Gutenberg plain-text eBook #76; header says last updated 2026-05-17.",
+      "physical_pages": null,
+      "unit_rule": "No page numbering in the plain-text source. Use chapters I-XII, split at paragraph boundaries into ordered units near 3,000 normalized characters; merge a final remainder under 1,500 characters into the preceding unit in the same chapter. Character offsets are Python Unicode code-point offsets in the full NFC-normalized source file. Units are not duplicated.",
+      "metadata": {
+        "author": "Mark Twain",
+        "language": "en",
+        "work_type": "novel"
+      },
+      "included_units": [
+        {
+          "unit_id": "chapter-01-unit-01",
+          "page": 1,
+          "chapter": "I",
+          "start_char": 8954,
+          "end_char": 11460,
+          "char_count": 2506
+        },
+        {
+          "unit_id": "chapter-01-unit-02",
+          "page": 2,
+          "chapter": "I",
+          "start_char": 11462,
+          "end_char": 13507,
+          "char_count": 2045
+        },
+        {
+          "unit_id": "chapter-01-unit-03",
+          "page": 3,
+          "chapter": "I",
+          "start_char": 13509,
+          "end_char": 15988,
+          "char_count": 2479
+        },
+        {
+          "unit_id": "chapter-02-unit-01",
+          "page": 4,
+          "chapter": "II",
+          "start_char": 15990,
+          "end_char": 18871,
+          "char_count": 2881
+        },
+        {
+          "unit_id": "chapter-02-unit-02",
+          "page": 5,
+          "chapter": "II",
+          "start_char": 18873,
+          "end_char": 21341,
+          "char_count": 2468
+        },
+        {
+          "unit_id": "chapter-02-unit-03",
+          "page": 6,
+          "chapter": "II",
+          "start_char": 21343,
+          "end_char": 24312,
+          "char_count": 2969
+        },
+        {
+          "unit_id": "chapter-02-unit-04",
+          "page": 7,
+          "chapter": "II",
+          "start_char": 24314,
+          "end_char": 28011,
+          "char_count": 3697
+        },
+        {
+          "unit_id": "chapter-03-unit-01",
+          "page": 8,
+          "chapter": "III",
+          "start_char": 28013,
+          "end_char": 30266,
+          "char_count": 2253
+        },
+        {
+          "unit_id": "chapter-03-unit-02",
+          "page": 9,
+          "chapter": "III",
+          "start_char": 30268,
+          "end_char": 33438,
+          "char_count": 3170
+        },
+        {
+          "unit_id": "chapter-03-unit-03",
+          "page": 10,
+          "chapter": "III",
+          "start_char": 33440,
+          "end_char": 36559,
+          "char_count": 3119
+        },
+        {
+          "unit_id": "chapter-04-unit-01",
+          "page": 11,
+          "chapter": "IV",
+          "start_char": 36561,
+          "end_char": 39507,
+          "char_count": 2946
+        },
+        {
+          "unit_id": "chapter-04-unit-02",
+          "page": 12,
+          "chapter": "IV",
+          "start_char": 39509,
+          "end_char": 43386,
+          "char_count": 3877
+        },
+        {
+          "unit_id": "chapter-05-unit-01",
+          "page": 13,
+          "chapter": "V",
+          "start_char": 43388,
+          "end_char": 46113,
+          "char_count": 2725
+        },
+        {
+          "unit_id": "chapter-05-unit-02",
+          "page": 14,
+          "chapter": "V",
+          "start_char": 46115,
+          "end_char": 48836,
+          "char_count": 2721
+        },
+        {
+          "unit_id": "chapter-05-unit-03",
+          "page": 15,
+          "chapter": "V",
+          "start_char": 48838,
+          "end_char": 51577,
+          "char_count": 2739
+        },
+        {
+          "unit_id": "chapter-06-unit-01",
+          "page": 16,
+          "chapter": "VI",
+          "start_char": 51579,
+          "end_char": 54298,
+          "char_count": 2719
+        },
+        {
+          "unit_id": "chapter-06-unit-02",
+          "page": 17,
+          "chapter": "VI",
+          "start_char": 54300,
+          "end_char": 57242,
+          "char_count": 2942
+        },
+        {
+          "unit_id": "chapter-06-unit-03",
+          "page": 18,
+          "chapter": "VI",
+          "start_char": 57244,
+          "end_char": 59998,
+          "char_count": 2754
+        },
+        {
+          "unit_id": "chapter-06-unit-04",
+          "page": 19,
+          "chapter": "VI",
+          "start_char": 60000,
+          "end_char": 62814,
+          "char_count": 2814
+        },
+        {
+          "unit_id": "chapter-06-unit-05",
+          "page": 20,
+          "chapter": "VI",
+          "start_char": 62816,
+          "end_char": 66128,
+          "char_count": 3312
+        },
+        {
+          "unit_id": "chapter-07-unit-01",
+          "page": 21,
+          "chapter": "VII",
+          "start_char": 66130,
+          "end_char": 68915,
+          "char_count": 2785
+        },
+        {
+          "unit_id": "chapter-07-unit-02",
+          "page": 22,
+          "chapter": "VII",
+          "start_char": 68917,
+          "end_char": 71832,
+          "char_count": 2915
+        },
+        {
+          "unit_id": "chapter-07-unit-03",
+          "page": 23,
+          "chapter": "VII",
+          "start_char": 71834,
+          "end_char": 74276,
+          "char_count": 2442
+        },
+        {
+          "unit_id": "chapter-07-unit-04",
+          "page": 24,
+          "chapter": "VII",
+          "start_char": 74278,
+          "end_char": 76874,
+          "char_count": 2596
+        },
+        {
+          "unit_id": "chapter-07-unit-05",
+          "page": 25,
+          "chapter": "VII",
+          "start_char": 76876,
+          "end_char": 79371,
+          "char_count": 2495
+        },
+        {
+          "unit_id": "chapter-08-unit-01",
+          "page": 26,
+          "chapter": "VIII",
+          "start_char": 79373,
+          "end_char": 82299,
+          "char_count": 2926
+        },
+        {
+          "unit_id": "chapter-08-unit-02",
+          "page": 27,
+          "chapter": "VIII",
+          "start_char": 82301,
+          "end_char": 85221,
+          "char_count": 2920
+        },
+        {
+          "unit_id": "chapter-08-unit-03",
+          "page": 28,
+          "chapter": "VIII",
+          "start_char": 85223,
+          "end_char": 88183,
+          "char_count": 2960
+        },
+        {
+          "unit_id": "chapter-08-unit-04",
+          "page": 29,
+          "chapter": "VIII",
+          "start_char": 88185,
+          "end_char": 91164,
+          "char_count": 2979
+        },
+        {
+          "unit_id": "chapter-08-unit-05",
+          "page": 30,
+          "chapter": "VIII",
+          "start_char": 91166,
+          "end_char": 93765,
+          "char_count": 2599
+        },
+        {
+          "unit_id": "chapter-08-unit-06",
+          "page": 31,
+          "chapter": "VIII",
+          "start_char": 93767,
+          "end_char": 96717,
+          "char_count": 2950
+        },
+        {
+          "unit_id": "chapter-08-unit-07",
+          "page": 32,
+          "chapter": "VIII",
+          "start_char": 96719,
+          "end_char": 99482,
+          "char_count": 2763
+        },
+        {
+          "unit_id": "chapter-08-unit-08",
+          "page": 33,
+          "chapter": "VIII",
+          "start_char": 99484,
+          "end_char": 101655,
+          "char_count": 2171
+        },
+        {
+          "unit_id": "chapter-09-unit-01",
+          "page": 34,
+          "chapter": "IX",
+          "start_char": 101657,
+          "end_char": 104535,
+          "char_count": 2878
+        },
+        {
+          "unit_id": "chapter-09-unit-02",
+          "page": 35,
+          "chapter": "IX",
+          "start_char": 104537,
+          "end_char": 107331,
+          "char_count": 2794
+        },
+        {
+          "unit_id": "chapter-09-unit-03",
+          "page": 36,
+          "chapter": "IX",
+          "start_char": 107333,
+          "end_char": 109754,
+          "char_count": 2421
+        },
+        {
+          "unit_id": "chapter-10-unit-01",
+          "page": 37,
+          "chapter": "X",
+          "start_char": 109756,
+          "end_char": 112457,
+          "char_count": 2701
+        },
+        {
+          "unit_id": "chapter-10-unit-02",
+          "page": 38,
+          "chapter": "X",
+          "start_char": 112459,
+          "end_char": 114899,
+          "char_count": 2440
+        },
+        {
+          "unit_id": "chapter-10-unit-03",
+          "page": 39,
+          "chapter": "X",
+          "start_char": 114901,
+          "end_char": 116812,
+          "char_count": 1911
+        },
+        {
+          "unit_id": "chapter-11-unit-01",
+          "page": 40,
+          "chapter": "XI",
+          "start_char": 116814,
+          "end_char": 119254,
+          "char_count": 2440
+        },
+        {
+          "unit_id": "chapter-11-unit-02",
+          "page": 41,
+          "chapter": "XI",
+          "start_char": 119256,
+          "end_char": 121961,
+          "char_count": 2705
+        },
+        {
+          "unit_id": "chapter-11-unit-03",
+          "page": 42,
+          "chapter": "XI",
+          "start_char": 121963,
+          "end_char": 123681,
+          "char_count": 1718
+        },
+        {
+          "unit_id": "chapter-11-unit-04",
+          "page": 43,
+          "chapter": "XI",
+          "start_char": 123683,
+          "end_char": 126113,
+          "char_count": 2430
+        },
+        {
+          "unit_id": "chapter-11-unit-05",
+          "page": 44,
+          "chapter": "XI",
+          "start_char": 126115,
+          "end_char": 128125,
+          "char_count": 2010
+        },
+        {
+          "unit_id": "chapter-11-unit-06",
+          "page": 45,
+          "chapter": "XI",
+          "start_char": 128127,
+          "end_char": 131313,
+          "char_count": 3186
+        },
+        {
+          "unit_id": "chapter-12-unit-01",
+          "page": 46,
+          "chapter": "XII",
+          "start_char": 131315,
+          "end_char": 133409,
+          "char_count": 2094
+        },
+        {
+          "unit_id": "chapter-12-unit-02",
+          "page": 47,
+          "chapter": "XII",
+          "start_char": 133411,
+          "end_char": 136156,
+          "char_count": 2745
+        },
+        {
+          "unit_id": "chapter-12-unit-03",
+          "page": 48,
+          "chapter": "XII",
+          "start_char": 136158,
+          "end_char": 138696,
+          "char_count": 2538
+        },
+        {
+          "unit_id": "chapter-12-unit-04",
+          "page": 49,
+          "chapter": "XII",
+          "start_char": 138698,
+          "end_char": 141105,
+          "char_count": 2407
+        },
+        {
+          "unit_id": "chapter-12-unit-05",
+          "page": 50,
+          "chapter": "XII",
+          "start_char": 141107,
+          "end_char": 144016,
+          "char_count": 2909
+        },
+        {
+          "unit_id": "chapter-12-unit-06",
+          "page": 51,
+          "chapter": "XII",
+          "start_char": 144018,
+          "end_char": 146026,
+          "char_count": 2008
+        }
+      ]
+    }
+  ]
+}

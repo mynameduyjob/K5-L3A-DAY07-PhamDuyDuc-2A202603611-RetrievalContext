@@ -1,0 +1,17 @@
+{
+  "strategy": "improvement1_budget1800",
+  "split": "dev",
+  "n": 18,
+  "budget_chars": 1800,
+  "use_filter": false,
+  "hit1": 3,
+  "hit1_rate": 0.16666666666666666,
+  "hit3": 7,
+  "hit3_rate": 0.3888888888888889,
+  "context_evidence_count": 5,
+  "context_evidence_rate": 0.2777777777777778,
+  "avg_context_chars": 1485.388888888889,
+  "median_ms": 249.17370000002848,
+  "mean_ms": 250.23040000001453,
+  "cost_usd": 0.0
+}

@@ -1,0 +1,526 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "I",
+    "question": "Who does Huck say wrote The Adventures of Tom Sawyer, and how does he describe its truthfulness?",
+    "expected_answer": "Mark Twain wrote it, and Huck says the book mostly told the truth.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 1,
+    "gold_unit_id": "chapter-01-unit-01",
+    "evidence_quote": "That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "unit_id": "chapter-01-unit-01",
+        "quote": "That book was made by Mr. Mark Twain, and he told the truth, mainly. There was things which he stretched, but mainly he told the truth."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question_type": "exception",
+    "topic_chapter": "I",
+    "question": "Which people does Huck name as exceptions when he says most people have lied?",
+    "expected_answer": "Aunt Polly, the widow, and possibly Mary.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 1,
+    "gold_unit_id": "chapter-01-unit-01",
+    "evidence_quote": "I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "unit_id": "chapter-01-unit-01",
+        "quote": "I never seen anybody but lied one time or another, without it was Aunt Polly, or the widow, or maybe Mary."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "II",
+    "question": "Where are Huck and Tom walking when they try to move quietly away from the house?",
+    "expected_answer": "Along a path through the trees toward the end of the widow's garden.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 4,
+    "gold_unit_id": "chapter-02-unit-01",
+    "evidence_quote": "We went tiptoeing along a path amongst the trees back towards the end of the widow",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 4,
+        "unit_id": "chapter-02-unit-01",
+        "quote": "We went tiptoeing along a path amongst the trees back towards the end of the widow"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "II",
+    "question": "In Chapter II, what name does Tom give his gang, and what do the members plan to do to travelers?",
+    "expected_answer": "He calls them highwaymen; they plan to stop travelers, rob them, and kill them.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 7,
+    "gold_unit_id": "chapter-02-unit-04",
+    "evidence_quote": "We are highwaymen. We stop stages and carriages on the road, with masks on, and kill the people and take their watches and money.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 7,
+        "unit_id": "chapter-02-unit-04",
+        "quote": "We are highwaymen. We stop stages and carriages on the road, with masks on, and kill the people and take their watches and money."
+      }
+    ],
+    "filter": {
+      "chapter": "II"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "III",
+    "question": "Why does Miss Watson reprimand Huck the morning after the boys' nighttime outing?",
+    "expected_answer": "Because of his dirty clothes, covered with grease and clay.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 8,
+    "gold_unit_id": "chapter-03-unit-01",
+    "evidence_quote": "Well, I got a good going-over in the morning from old Miss Watson on account of my clothes; but the widow she didn’t scold, but only cleaned off the grease and clay",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 8,
+        "unit_id": "chapter-03-unit-01",
+        "quote": "Well, I got a good going-over in the morning from old Miss Watson on account of my clothes; but the widow she didn’t scold, but only cleaned off the grease and clay"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "III",
+    "question": "What does Miss Watson tell Huck to do to receive what he asks for?",
+    "expected_answer": "Pray every day.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 8,
+    "gold_unit_id": "chapter-03-unit-01",
+    "evidence_quote": "She told me to pray every day, and whatever I asked for I would get it.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 8,
+        "unit_id": "chapter-03-unit-01",
+        "quote": "She told me to pray every day, and whatever I asked for I would get it."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "IV",
+    "question": "What does Huck say he can do after attending school for several months?",
+    "expected_answer": "He can spell, read, and write a little.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 11,
+    "gold_unit_id": "chapter-04-unit-01",
+    "evidence_quote": "I had been to school most all the time and could spell and read and write just a little",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 11,
+        "unit_id": "chapter-04-unit-01",
+        "quote": "I had been to school most all the time and could spell and read and write just a little"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "IV",
+    "question": "What does Huck ask Judge Thatcher to do with the six thousand dollars?",
+    "expected_answer": "Take it; Huck says he wants to give him all of it.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 12,
+    "gold_unit_id": "chapter-04-unit-02",
+    "evidence_quote": "I want you to take it; I want to give it to you",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 12,
+        "unit_id": "chapter-04-unit-02",
+        "quote": "I want you to take it; I want to give it to you"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "V",
+    "question": "Why does Huck say he is afraid of Pap?",
+    "expected_answer": "Pap used to beat him.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 13,
+    "gold_unit_id": "chapter-05-unit-01",
+    "evidence_quote": "I used to be scared of him all the time, he tanned me so much.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 13,
+        "unit_id": "chapter-05-unit-01",
+        "quote": "I used to be scared of him all the time, he tanned me so much."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question_type": "condition",
+    "topic_chapter": "V",
+    "question": "What does Pap threaten to do if Huck keeps attending school?",
+    "expected_answer": "He threatens to beat him.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 14,
+    "gold_unit_id": "chapter-05-unit-02",
+    "evidence_quote": "if I catch you about that school I’ll tan you good.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 14,
+        "unit_id": "chapter-05-unit-02",
+        "quote": "if I catch you about that school I’ll tan you good."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "VI",
+    "question": "In Chapter VI, how long does Pap leave Huck locked in the cabin on one occasion?",
+    "expected_answer": "Three days.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 17,
+    "gold_unit_id": "chapter-06-unit-02",
+    "evidence_quote": "Once he locked me in and was gone three days.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 17,
+        "unit_id": "chapter-06-unit-02",
+        "quote": "Once he locked me in and was gone three days."
+      }
+    ],
+    "filter": {
+      "chapter": "VI"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "VI",
+    "question": "What does Pap say the jug of whisky contains enough for?",
+    "expected_answer": "Two drunks and one delirium tremens.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 20,
+    "gold_unit_id": "chapter-06-unit-05",
+    "evidence_quote": "After supper pap took the jug, and said he had enough whisky there for two drunks and one delirium tremens.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 20,
+        "unit_id": "chapter-06-unit-05",
+        "quote": "After supper pap took the jug, and said he had enough whisky there for two drunks and one delirium tremens."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "VII",
+    "question": "What animal does Huck find while hunting for birds in the woods?",
+    "expected_answer": "A wild pig.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 23,
+    "gold_unit_id": "chapter-07-unit-03",
+    "evidence_quote": "and was hunting around for some birds when I see a wild pig",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "unit_id": "chapter-07-unit-03",
+        "quote": "and was hunting around for some birds when I see a wild pig"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question_type": "condition",
+    "topic_chapter": "VII",
+    "question": "After checking the bank, what does Huck conclude about whether anyone can see his tracks?",
+    "expected_answer": "He says it is all safe and he has left no track.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 23,
+    "gold_unit_id": "chapter-07-unit-03",
+    "evidence_quote": "It was all grass clear to the canoe, so I hadn’t left a track.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "unit_id": "chapter-07-unit-03",
+        "quote": "It was all grass clear to the canoe, so I hadn’t left a track."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question_type": "direct",
+    "topic_chapter": "VIII",
+    "question": "When Huck wakes on Jackson's Island, what time does he estimate it is?",
+    "expected_answer": "After eight o'clock.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 26,
+    "gold_unit_id": "chapter-08-unit-01",
+    "evidence_quote": "The sun was up so high when I waked that I judged it was after eight o’clock.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 26,
+        "unit_id": "chapter-08-unit-01",
+        "quote": "The sun was up so high when I waked that I judged it was after eight o’clock."
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "I",
+    "question": "In Chapter I, what does the widow say she intends to do for Huck?",
+    "expected_answer": "She intends to civilize him.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 1,
+    "gold_unit_id": "chapter-01-unit-01",
+    "evidence_quote": "The Widow Douglas she took me for her son, and allowed she would sivilize me",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "unit_id": "chapter-01-unit-01",
+        "quote": "The Widow Douglas she took me for her son, and allowed she would sivilize me"
+      }
+    ],
+    "filter": {
+      "chapter": "I"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question_type": "paraphrase",
+    "topic_chapter": "V",
+    "question": "What does Pap do with the three dollars Huck borrows from Judge Thatcher?",
+    "expected_answer": "Pap takes the money and gets drunk.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 15,
+    "gold_unit_id": "chapter-05-unit-03",
+    "evidence_quote": "I borrowed three dollars from Judge Thatcher, and pap took it and got drunk",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 15,
+        "unit_id": "chapter-05-unit-03",
+        "quote": "I borrowed three dollars from Judge Thatcher, and pap took it and got drunk"
+      }
+    ],
+    "filter": {},
+    "filter_source": "none"
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question_type": "condition",
+    "topic_chapter": "VII",
+    "question": "In Chapter VII, what two signs does Huck leave to make people think he was killed?",
+    "expected_answer": "He bloodies an axe with his hair and leaves the axe in the cabin.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 23,
+    "gold_unit_id": "chapter-07-unit-03",
+    "evidence_quote": "Well, last I pulled out some of my hair, and blooded the axe good, and stuck it on the back side, and slung the axe in the corner.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "unit_id": "chapter-07-unit-03",
+        "quote": "Well, last I pulled out some of my hair, and blooded the axe good, and stuck it on the back side, and slung the axe in the corner."
+      }
+    ],
+    "filter": {
+      "chapter": "VII"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question_type": "direct",
+    "topic_chapter": "X",
+    "question": "In Chapter X, what bites Jim when he lies down on the blanket?",
+    "expected_answer": "The snake's mate bites Jim.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 37,
+    "gold_unit_id": "chapter-10-unit-01",
+    "evidence_quote": "when Jim flung himself down on the blanket while I struck a light the snake’s mate was there, and bit him.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 37,
+        "unit_id": "chapter-10-unit-01",
+        "quote": "when Jim flung himself down on the blanket while I struck a light the snake’s mate was there, and bit him."
+      }
+    ],
+    "filter": {
+      "chapter": "X"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question_type": "condition",
+    "topic_chapter": "XII",
+    "question": "In Chapter XII, what danger does Jim suspect if they board the wreck?",
+    "expected_answer": "He suspects there may be a watchman aboard.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 48,
+    "gold_unit_id": "chapter-12-unit-03",
+    "evidence_quote": "Like as not dey’s a watchman on dat wrack.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 48,
+        "unit_id": "chapter-12-unit-03",
+        "quote": "Like as not dey’s a watchman on dat wrack."
+      }
+    ],
+    "filter": {
+      "chapter": "XII"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question_type": "paraphrase",
+    "topic_chapter": "IX",
+    "question": "In Chapter IX, why does Jim want their supplies moved into the cavern?",
+    "expected_answer": "The cavern would shelter their belongings from rain and hide them if anyone came to the island.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 34,
+    "gold_unit_id": "chapter-09-unit-01",
+    "evidence_quote": "Jim said if we had the canoe hid in a good place, and had all the traps in the cavern, we could rush there if anybody was to come to the island, and they would never find us without dogs. And, besides, he said them little birds had said it was going to rain, and did I want the things to get wet?",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 34,
+        "unit_id": "chapter-09-unit-01",
+        "quote": "Jim said if we had the canoe hid in a good place, and had all the traps in the cavern, we could rush there if anybody was to come to the island, and they would never find us without dogs. And, besides, he said them little birds had said it was going to rain, and did I want the things to get wet?"
+      }
+    ],
+    "filter": {
+      "chapter": "IX"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question_type": "paraphrase",
+    "topic_chapter": "XI",
+    "question": "In Chapter XI, what does Mrs. Loftus say about the man who directed Huck to Goshen?",
+    "expected_answer": "She says he was probably drunk and gave Huck exactly the wrong directions.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 44,
+    "gold_unit_id": "chapter-11-unit-05",
+    "evidence_quote": "He was drunk, I reckon. He told you just exactly wrong.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 44,
+        "unit_id": "chapter-11-unit-05",
+        "quote": "He was drunk, I reckon. He told you just exactly wrong."
+      }
+    ],
+    "filter": {
+      "chapter": "XI"
+    },
+    "filter_source": "question"
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "question_type": "condition",
+    "topic_chapter": "XI",
+    "question": "In Chapter XI, if Huck gets into trouble after leaving, whom does Mrs. Loftus tell him to contact, and what will she do?",
+    "expected_answer": "He should send word to Mrs. Judith Loftus, and she will try to help him.",
+    "gold_source_id": "huck_finn_early_journey",
+    "gold_page": 45,
+    "gold_unit_id": "chapter-11-unit-06",
+    "evidence_quote": "if you get into trouble you send word to Mrs. Judith Loftus, which is me, and I’ll do what I can to get you out of it.",
+    "accepted_evidence": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 45,
+        "unit_id": "chapter-11-unit-06",
+        "quote": "if you get into trouble you send word to Mrs. Judith Loftus, which is me, and I’ll do what I can to get you out of it."
+      }
+    ],
+    "filter": {
+      "chapter": "XI"
+    },
+    "filter_source": "question"
+  }
+]

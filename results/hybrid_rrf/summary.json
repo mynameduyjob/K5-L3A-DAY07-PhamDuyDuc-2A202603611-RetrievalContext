@@ -1,0 +1,17 @@
+{
+  "strategy": "hybrid_rrf",
+  "split": "dev",
+  "n": 18,
+  "budget_chars": 800,
+  "use_filter": false,
+  "hit1": 3,
+  "hit1_rate": 0.16666666666666666,
+  "hit3": 7,
+  "hit3_rate": 0.3888888888888889,
+  "context_evidence_count": 3,
+  "context_evidence_rate": 0.16666666666666666,
+  "avg_context_chars": 490.8333333333333,
+  "median_ms": 243.20464999993874,
+  "mean_ms": 246.5609777777647,
+  "cost_usd": 0.0
+}

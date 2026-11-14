@@ -1,0 +1,17 @@
+{
+  "strategy": "test_chosen_best",
+  "split": "test",
+  "n": 5,
+  "budget_chars": 1800,
+  "use_filter": true,
+  "hit1": 0,
+  "hit1_rate": 0.0,
+  "hit3": 5,
+  "hit3_rate": 1.0,
+  "context_evidence_count": 3,
+  "context_evidence_rate": 0.6,
+  "avg_context_chars": 1431.8,
+  "median_ms": 248.71970000003785,
+  "mean_ms": 264.238000000023,
+  "cost_usd": 0.0
+}

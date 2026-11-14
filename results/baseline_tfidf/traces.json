@@ -1,0 +1,1725 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Who does Huck say wrote The Adventures of Tom Sawyer, and how does he describe its truthfulness?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "evidence": "That book was made\nby Mr. Mark Twain, and he told the truth, mainly. There was things\nwhich he stretched, but mainly he told the truth."
+      }
+    ],
+    "results": [
+      {
+        "id": "18baf4dbd2a4934f57e3151bcf44f349ef45b65af0832e4663f8c4991628605c",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 6,
+        "text": "Everybody said it was a real beautiful oath, and asked Tom if he got it\nout of his own head. He said, some of it, but the rest was out of\npirate-books and robber-books, and every gang that was high-toned had\nit.\n\nSome thought it would be good to kill the _families_ of boys that told\nthe secrets. Tom said it was a good idea, so he took a pencil and wrote\nit in. Then Ben Rogers says:\n\n“Here’s Huck Finn, he hain’t got no family; what you going to do ’bout\nhim?”\n\n“Well, hain’t he got a father?” says Tom Sawyer.\n\n“Yes, he’s got a father, but you can’t never find him these days. He\nused to lay drunk with the hogs in the tanyard, but he hain’t been seen\nin these parts for a year or more.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-02-unit-03",
+          "chapter": "II",
+          "char_start": 1558,
+          "char_end": 2248,
+          "char_count": 2969,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17313795454690953,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1499663158428195,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "cfa21ccbad658e0eeeb7ce7610879e1bbcef11ad9fe04d3eab8ba57eda051cef",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 20,
+        "text": "By-and-by he rolled out and jumped up on his feet looking wild, and he\nsee me and went for me. He chased me round and round the place with a\nclasp-knife, calling me the Angel of Death, and saying he would kill\nme, and then I couldn’t come for him no more. I begged, and told him I\nwas only Huck; but he laughed _such_ a screechy laugh, and roared and\ncussed, and kept on chasing me up. Once when I turned short and dodged\nunder his arm he made a grab and got me by the jacket between my\nshoulders, and I thought I was gone; but I slid out of the jacket quick\nas lightning, and saved myself. Pretty soon he was all tired out, and\ndropped down with his back against the door, and said he would rest a\nminute and then kill me. He put his knife under him, and said he would\nsleep and get strong, and then he would see who was who.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-05",
+          "chapter": "VI",
+          "char_start": 2119,
+          "char_end": 2945,
+          "char_count": 3312,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.12298719521048232,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.9589999999661813,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Which people does Huck name as exceptions when he says most people have lied?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "evidence": "I\nnever seen anybody but lied one time or another, without it was Aunt\nPolly, or the widow, or maybe Mary."
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.2238672692641226,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "eeb30a8a71c30ab014708d8f2d5f7c6aba79c0d1016da79ccc5c1946fa3c44d5",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 1,
+        "text": "CHAPTER I.\n\nYou don’t know about me without you have read a book by the name of The\nAdventures of Tom Sawyer; but that ain’t no matter. That book was made\nby Mr. Mark Twain, and he told the truth, mainly. There was things\nwhich he stretched, but mainly he told the truth. That is nothing. I\nnever seen anybody but lied one time or another, without it was Aunt\nPolly, or the widow, or maybe Mary. Aunt Polly—Tom’s Aunt Polly, she\nis—and Mary, and the Widow Douglas is all told about in that book,\nwhich is mostly a true book, with some stretchers, as I said before.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-01-unit-01",
+          "chapter": "I",
+          "char_start": 0,
+          "char_end": 564,
+          "char_count": 2506,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1506924954772274,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "450d445f542a8bd473e66e2f13f47e7558546de0c59ebe4b71b24892516dea55",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 17,
+        "text": "Pap warn’t in a good humor—so he was his natural self. He said he was\ndown town, and everything was going wrong. His lawyer said he reckoned\nhe would win his lawsuit and get the money if they ever got started on\nthe trial; but then there was ways to put it off a long time, and Judge\nThatcher knowed how to do it. And he said people allowed there’d be\nanother trial to get me away from him and give me to the widow for my\nguardian, and they guessed it would win this time. This shook me up\nconsiderable, because I didn’t want to go back to the widow’s any more\nand be so cramped up and sivilized, as they called it. Then the old man\ngot to cussing, and cussed everything and everybody he could think of,\nand then cussed them all over again to make sure he hadn’t skipped any,\nand after that he polished off with a kind of a general cuss all round,\nincluding a considerable parcel of people which he didn’t know the\nnames of, and so called them what’s-his-name when he got to them, and\nwent right alon",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-02",
+          "chapter": "VI",
+          "char_start": 1558,
+          "char_end": 2558,
+          "char_count": 2942,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1425196812055068,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25"
+    ],
+    "context_chars": 569,
+    "elapsed_ms": 0.565199999982724,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Where are Huck and Tom walking when they try to move quietly away from the house?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 4,
+        "evidence": "We went tiptoeing along a path amongst the trees back towards the end\nof the widow"
+      }
+    ],
+    "results": [
+      {
+        "id": "2dd27ee0e1776200ffcc28a6ac09832c091579bc958681f4dc7224e02cdb11a8",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 4,
+        "text": "Tom he made a sign to me—kind of a little noise with his mouth—and we\nwent creeping away on our hands and knees. When we was ten foot off Tom\nwhispered to me, and wanted to tie Jim to the tree for fun. But I said\nno; he might wake and make a disturbance, and then they’d find out I\nwarn’t in. Then Tom said he hadn’t got candles enough, and he would\nslip in the kitchen and get some more. I didn’t want him to try. I said\nJim might wake up and come. But Tom wanted to resk it; so we slid in\nthere and got three candles, and Tom laid five cents on the table for\npay. Then we got out, and I was in a sweat to get away; but nothing\nwould do Tom but he must crawl to where Jim was, on his hands and\nknees, and play something on him. I waited, and it seemed a good while,\neverything was so still and lonesome.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-02-unit-01",
+          "chapter": "II",
+          "char_start": 2077,
+          "char_end": 2881,
+          "char_count": 2881,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23178379943545285,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "edae5b42d9a350ce374ad86b492ee9203ff33499172dfdfa98a5dd74cab41ed9",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 23,
+        "text": "Well, last I pulled out some of my hair, and blooded the axe good, and\nstuck it on the back side, and slung the axe in the corner. Then I took\nup the pig and held him to my breast with my jacket (so he couldn’t\ndrip) till I got a good piece below the house and then dumped him into\nthe river. Now I thought of something else. So I went and got the bag\nof meal and my old saw out of the canoe, and fetched them to the house.\nI took the bag to where it used to stand, and ripped a hole in the\nbottom of it with the saw, for there warn’t no knives and forks on the\nplace—pap done everything with his clasp-knife about the cooking. Then\nI carried the sack about a hundred yards across the grass and through\nthe willows east of the house, to a shallow lake that was five mile\nwide and full of rushes—and ducks too, you might say, in the season.\nThere was a slough or a creek leading out of it on the other side that\nwent miles away, I don’t know where, but it didn’t go to the river. The\nmeal sifted out a",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-07-unit-03",
+          "chapter": "VII",
+          "char_start": 1182,
+          "char_end": 2182,
+          "char_count": 2442,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17481901396010627,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "e68446ad2df3a6c577cd747cbf5ec3be99d858f321b2a1b770887a4a221ae2c6",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 6,
+        "text": "They talked it over, and they was going to rule me out, because they\nsaid every boy must have a family or somebody to kill, or else it\nwouldn’t be fair and square for the others. Well, nobody could think of\nanything to do—everybody was stumped, and set still. I was most ready\nto cry; but all at once I thought of a way, and so I offered them Miss\nWatson—they could kill her. Everybody said:\n\n“Oh, she’ll do. That’s all right. Huck can come in.”\n\nThen they all stuck a pin in their fingers to get blood to sign with,\nand I made my mark on the paper.\n\n“Now,” says Ben Rogers, “what’s the line of business of this Gang?”\n\n“Nothing only robbery and murder,” Tom said.\n\n“But who are we going to rob?—houses, or cattle, or—”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-02-unit-03",
+          "chapter": "II",
+          "char_start": 2250,
+          "char_end": 2969,
+          "char_count": 2969,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17046830339236846,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.6094999998822459,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "In Chapter II, what name does Tom give his gang, and what do the members plan to do to travelers?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 7,
+        "evidence": "We\nare highwaymen. We stop stages and carriages on the road, with masks\non, and kill the people and take their watches and money."
+      }
+    ],
+    "results": [
+      {
+        "id": "5b3f5e6b7a127e6941f82a3b59aacd1ea9ea6c5ba98b2a970a44449d94657608",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 43,
+        "text": "“Keep your eye on the rats. You better have the lead in your lap,\nhandy.”\n\nSo she dropped the lump into my lap just at that moment, and I clapped\nmy legs together on it and she went on talking. But only about a\nminute. Then she took off the hank and looked me straight in the face,\nand very pleasant, and says:\n\n“Come, now, what’s your real name?”\n\n“Wh—what, mum?”\n\n“What’s your real name? Is it Bill, or Tom, or Bob?—or what is it?”\n\nI reckon I shook like a leaf, and I didn’t know hardly what to do. But\nI says:\n\n“Please to don’t poke fun at a poor girl like me, mum. If I’m in the\nway here, I’ll—”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-04",
+          "chapter": "XI",
+          "char_start": 1341,
+          "char_end": 1941,
+          "char_count": 2430,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1943681138504256,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "edc83a45aa2b31627431d1725cc3478d8341f5002a9587be80e42aebfef5f561",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 7,
+        "text": "“Stuff! stealing cattle and such things ain’t robbery; it’s burglary,”\nsays Tom Sawyer. “We ain’t burglars. That ain’t no sort of style. We\nare highwaymen. We stop stages and carriages on the road, with masks\non, and kill the people and take their watches and money.”\n\n“Must we always kill the people?”\n\n“Oh, certainly. It’s best. Some authorities think different, but mostly\nit’s considered best to kill them—except some that you bring to the\ncave here, and keep them till they’re ransomed.”\n\n“Ransomed? What’s that?”\n\n“I don’t know. But that’s what they do. I’ve seen it in books; and so\nof course that’s what we’ve got to do.”\n\n“But how can we do it if we don’t know what it is?”\n\n“Why, blame it all, we’ve _got_ to do it. Don’t I tell you it’s in the\nbooks? Do you want to go to doing different from what’s in the books,\nand get things all muddled up?”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-02-unit-04",
+          "chapter": "II",
+          "char_start": 0,
+          "char_end": 856,
+          "char_count": 3697,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18802427790784987,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "2dd27ee0e1776200ffcc28a6ac09832c091579bc958681f4dc7224e02cdb11a8",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 4,
+        "text": "Tom he made a sign to me—kind of a little noise with his mouth—and we\nwent creeping away on our hands and knees. When we was ten foot off Tom\nwhispered to me, and wanted to tie Jim to the tree for fun. But I said\nno; he might wake and make a disturbance, and then they’d find out I\nwarn’t in. Then Tom said he hadn’t got candles enough, and he would\nslip in the kitchen and get some more. I didn’t want him to try. I said\nJim might wake up and come. But Tom wanted to resk it; so we slid in\nthere and got three candles, and Tom laid five cents on the table for\npay. Then we got out, and I was in a sweat to get away; but nothing\nwould do Tom but he must crawl to where Jim was, on his hands and\nknees, and play something on him. I waited, and it seemed a good while,\neverything was so still and lonesome.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-02-unit-01",
+          "chapter": "II",
+          "char_start": 2077,
+          "char_end": 2881,
+          "char_count": 2881,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17734732126831293,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[5b3f5e6b7a127e6941f82a3b59aacd1ea9ea6c5ba98b2a970a44449d94657608 | Adventures of Huckleberry Finn — Chapters I–XII | page 43]\n“Keep your eye on the rats. You better have the lead in your lap,\nhandy.”\n\nSo she dropped the lump into my lap just at that moment, and I clapped\nmy legs together on it and she went on talking. But only about a\nminute. Then she took off the hank and looked me straight in the face,\nand very pleasant, and says:\n\n“Come, now, what’s your real name?”\n\n“Wh—what, mum?”\n\n“What’s your real name? Is it Bill, or Tom, or Bob?—or what is it?”\n\nI reckon I shook like a leaf, and I didn’t know hardly what to do. But\nI says:\n\n“Please to don’t poke fun at a poor girl like me, mum. If I’m in the\nway here, I’ll—”",
+    "context_ids": [
+      "5b3f5e6b7a127e6941f82a3b59aacd1ea9ea6c5ba98b2a970a44449d94657608"
+    ],
+    "context_chars": 727,
+    "elapsed_ms": 0.618300000041927,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Why does Miss Watson reprimand Huck the morning after the boys' nighttime outing?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 8,
+        "evidence": "Well, I got a good going-over in the morning from old Miss Watson on\naccount of my clothes; but the widow she didn’t scold, but only cleaned\noff the grease and clay"
+      }
+    ],
+    "results": [
+      {
+        "id": "958700a36701e7584d5349ee0afb34e5854416795cf94041ba20743d2ad555ad",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 8,
+        "text": "CHAPTER III.\n\nWell, I got a good going-over in the morning from old Miss Watson on\naccount of my clothes; but the widow she didn’t scold, but only cleaned\noff the grease and clay, and looked so sorry that I thought I would\nbehave a while if I could. Then Miss Watson she took me in the closet\nand prayed, but nothing come of it. She told me to pray every day, and\nwhatever I asked for I would get it. But it warn’t so. I tried it. Once\nI got a fish-line, but no hooks. It warn’t any good to me without\nhooks. I tried for the hooks three or four times, but somehow I\ncouldn’t make it work. By-and-by, one day, I asked Miss Watson to try\nfor me, but she said I was a fool. She never told me why, and I\ncouldn’t make it out no way.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-01",
+          "chapter": "III",
+          "char_start": 0,
+          "char_end": 728,
+          "char_count": 2253,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.22302316620611956,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "42430bbaf0b39cd776af5c6343174c15968ec00869f0cc5cbe6e0e83791beae6",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 8,
+        "text": "I set down one time back in the woods, and had a long think about it. I\nsays to myself, if a body can get anything they pray for, why don’t\nDeacon Winn get back the money he lost on pork? Why can’t the widow get\nback her silver snuffbox that was stole? Why can’t Miss Watson fat up?\nNo, says I to myself, there ain’t nothing in it. I went and told the\nwidow about it, and she said the thing a body could get by praying for\nit was “spiritual gifts.” This was too many for me, but she told me\nwhat she meant—I must help other people, and do everything I could for\nother people, and look out for them all the time, and never think about\nmyself. This was including Miss Watson, as I took it. I went out in the\nwoods and turned it over in my mind a long time, but I couldn’t see no\nadvantage about it—except for the other people; so at last I reckoned I\nwouldn’t worry about it any more, but just let it go. Sometimes the\nwidow would take me one side and talk about Providence in a way to make\na body’s mo",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-01",
+          "chapter": "III",
+          "char_start": 730,
+          "char_end": 1730,
+          "char_count": 2253,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1689322661208983,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 8,
+        "text": "uth water; but maybe next day Miss Watson would take hold\nand knock it all down again. I judged I could see that there was two\nProvidences, and a poor chap would stand considerable show with the\nwidow’s Providence, but if Miss Watson’s got him there warn’t no help\nfor him any more. I thought it all out, and reckoned I would belong to\nthe widow’s if he wanted me, though I couldn’t make out how he was\na-going to be any better off then than what he was before, seeing I was\nso ignorant, and so kind of low-down and ornery.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-01",
+          "chapter": "III",
+          "char_start": 1730,
+          "char_end": 2253,
+          "char_count": 2253,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.16419951314642786,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c | Adventures of Huckleberry Finn — Chapters I–XII | page 8]\nuth water; but maybe next day Miss Watson would take hold\nand knock it all down again. I judged I could see that there was two\nProvidences, and a poor chap would stand considerable show with the\nwidow’s Providence, but if Miss Watson’s got him there warn’t no help\nfor him any more. I thought it all out, and reckoned I would belong to\nthe widow’s if he wanted me, though I couldn’t make out how he was\na-going to be any better off then than what he was before, seeing I was\nso ignorant, and so kind of low-down and ornery.",
+    "context_ids": [
+      "e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c"
+    ],
+    "context_chars": 649,
+    "elapsed_ms": 0.4354999998668063,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "What does Miss Watson tell Huck to do to receive what he asks for?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 8,
+        "evidence": "She told me to pray every day, and\nwhatever I asked for I would get it."
+      }
+    ],
+    "results": [
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.24762507498081074,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 8,
+        "text": "uth water; but maybe next day Miss Watson would take hold\nand knock it all down again. I judged I could see that there was two\nProvidences, and a poor chap would stand considerable show with the\nwidow’s Providence, but if Miss Watson’s got him there warn’t no help\nfor him any more. I thought it all out, and reckoned I would belong to\nthe widow’s if he wanted me, though I couldn’t make out how he was\na-going to be any better off then than what he was before, seeing I was\nso ignorant, and so kind of low-down and ornery.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-01",
+          "chapter": "III",
+          "char_start": 1730,
+          "char_end": 2253,
+          "char_count": 2253,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23292602089968328,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.20957115143251576,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c | Adventures of Huckleberry Finn — Chapters I–XII | page 8]\nuth water; but maybe next day Miss Watson would take hold\nand knock it all down again. I judged I could see that there was two\nProvidences, and a poor chap would stand considerable show with the\nwidow’s Providence, but if Miss Watson’s got him there warn’t no help\nfor him any more. I thought it all out, and reckoned I would belong to\nthe widow’s if he wanted me, though I couldn’t make out how he was\na-going to be any better off then than what he was before, seeing I was\nso ignorant, and so kind of low-down and ornery.",
+    "context_ids": [
+      "e1564dce573b8eb62f13c6cd5b547f18dcadf0d706846f20f4e6e7e052aabc0c"
+    ],
+    "context_chars": 649,
+    "elapsed_ms": 0.4630000000815926,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "What does Huck say he can do after attending school for several months?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 11,
+        "evidence": "I had been to school most all the time and could spell and read\nand write just a little"
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23020529727868147,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "83691c8e20a110dc56811735b2d0c6ae77571555ad71f52a84b1e5ffca394c3b",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 19,
+        "text": "ote agin as long as I live. And to see the\ncool way of that nigger—why, he wouldn’t a give me the road if I hadn’t\nshoved him out o’ the way. I says to the people, why ain’t this nigger\nput up at auction and sold?—that’s what I want to know. And what do you\nreckon they said? Why, they said he couldn’t be sold till he’d been in\nthe State six months, and he hadn’t been there that long yet. There,\nnow—that’s a specimen. They call that a govment that can’t sell a free\nnigger till he’s been in the State six months. Here’s a govment that\ncalls itself a govment, and lets on to be a govment, and thinks it is a\ngovment, and yet’s got to set stock-still for six whole months before\nit can take a hold of a prowling, thieving, infernal, white-shirted\nfree nigger, and—”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-04",
+          "chapter": "VI",
+          "char_start": 1000,
+          "char_end": 1766,
+          "char_count": 2814,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1910090321241875,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "920e5f4bf6738589ad25800e5c451cb736794d878fa5d10a46c0944ce926612a",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 48,
+        "text": " crabapples ain’t ever good, and the p’simmons\nwouldn’t be ripe for two or three months yet.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-12-unit-03",
+          "chapter": "XII",
+          "char_start": 1000,
+          "char_end": 1092,
+          "char_count": 2538,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1643033278913071,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”\n\n[920e5f4bf6738589ad25800e5c451cb736794d878fa5d10a46c0944ce926612a | Adventures of Huckleberry Finn — Chapters I–XII | page 48]\n crabapples ain’t ever good, and the p’simmons\nwouldn’t be ripe for two or three months yet.",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+      "920e5f4bf6738589ad25800e5c451cb736794d878fa5d10a46c0944ce926612a"
+    ],
+    "context_chars": 790,
+    "elapsed_ms": 0.4714000001513341,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "What does Huck ask Judge Thatcher to do with the six thousand dollars?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 12,
+        "evidence": "I want you to take it; I want to give\nit to you"
+      }
+    ],
+    "results": [
+      {
+        "id": "174c64f105c8e62fa7642984d9588b8502b86b4568de51163e410ca98c81e6af",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 14,
+        "text": "“Looky here—mind how you talk to me; I’m a-standing about all I can\nstand now—so don’t gimme no sass. I’ve been in town two days, and I\nhain’t heard nothing but about you bein’ rich. I heard about it away\ndown the river, too. That’s why I come. You git me that money\nto-morrow—I want it.”\n\n“I hain’t got no money.”\n\n“It’s a lie. Judge Thatcher’s got it. You git it. I want it.”\n\n“I hain’t got no money, I tell you. You ask Judge Thatcher; he’ll tell\nyou the same.”\n\n“All right. I’ll ask him; and I’ll make him pungle, too, or I’ll know\nthe reason why. Say, how much you got in your pocket? I want it.”\n\n“I hain’t got only a dollar, and I want that to—”\n\n“It don’t make no difference what you want it for—you just shell it\nout.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-05-unit-02",
+          "chapter": "V",
+          "char_start": 972,
+          "char_end": 1699,
+          "char_count": 2721,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18636075410714556,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 14,
+        "text": "The judge and the widow went to law to get the court to take me away\nfrom him and let one of them be my guardian; but it was a new judge\nthat had just come, and he didn’t know the old man; so he said courts\nmustn’t interfere and separate families if they could help it; said\nhe’d druther not take a child away from its father. So Judge Thatcher\nand the widow had to quit on the business.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-05-unit-02",
+          "chapter": "V",
+          "char_start": 2334,
+          "char_end": 2721,
+          "char_count": 2721,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18425294485149762,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "a2355b5a4286e0b0e7f6a160876f83ccb5bb9ba44407c0b881816a46693e3336",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 12,
+        "text": "“No, sir,” I says, “I don’t want to spend it. I don’t want it at\nall—nor the six thousand, nuther. I want you to take it; I want to give\nit to you—the six thousand and all.”\n\nHe looked surprised. He couldn’t seem to make it out. He says:\n\n“Why, what can you mean, my boy?”\n\nI says, “Don’t you ask me no questions about it, please. You’ll take\nit—won’t you?”\n\nHe says:\n\n“Well, I’m puzzled. Is something the matter?”\n\n“Please take it,” says I, “and don’t ask me nothing—then I won’t have\nto tell no lies.”\n\nHe studied a while, and then he says:\n\n“Oho-o! I think I see. You want to _sell_ all your property to me—not\ngive it. That’s the correct idea.”\n\nThen he wrote something on a paper and read it over, and says:\n\n“There; you see it says ‘for a consideration.’ That means I have bought\nit of you and paid you for it. Here’s a dollar for you. Now you sign\nit.”\n\nSo I signed it, and left.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-04-unit-02",
+          "chapter": "IV",
+          "char_start": 0,
+          "char_end": 886,
+          "char_count": 3877,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18121311648721283,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18 | Adventures of Huckleberry Finn — Chapters I–XII | page 14]\nThe judge and the widow went to law to get the court to take me away\nfrom him and let one of them be my guardian; but it was a new judge\nthat had just come, and he didn’t know the old man; so he said courts\nmustn’t interfere and separate families if they could help it; said\nhe’d druther not take a child away from its father. So Judge Thatcher\nand the widow had to quit on the business.",
+    "context_ids": [
+      "b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18"
+    ],
+    "context_chars": 514,
+    "elapsed_ms": 0.5361999999422551,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Why does Huck say he is afraid of Pap?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 13,
+        "evidence": "I used\nto be scared of him all the time, he tanned me so much."
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17228835862841113,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4d1df3ce6254a8b83382fae00a5904df8737da24fe829990daab53b6edb0e5b3",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 47,
+        "text": "Every night now I used to slip ashore towards ten o’clock at some\nlittle village, and buy ten or fifteen cents’ worth of meal or bacon or\nother stuff to eat; and sometimes I lifted a chicken that warn’t\nroosting comfortable, and took him along. Pap always said, take a\nchicken when you get a chance, because if you don’t want him yourself\nyou can easy find somebody that does, and a good deed ain’t ever\nforgot. I never see pap when he didn’t want the chicken himself, but\nthat is what he used to say, anyway.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-12-unit-02",
+          "chapter": "XII",
+          "char_start": 2236,
+          "char_end": 2745,
+          "char_count": 2745,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.157205445895625,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1478166479204384,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25"
+    ],
+    "context_chars": 569,
+    "elapsed_ms": 0.4292999999506719,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "What does Pap threaten to do if Huck keeps attending school?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 14,
+        "evidence": "if I catch you about that school I’ll tan you good."
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.144879526823437,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.13072218111077027,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4d1df3ce6254a8b83382fae00a5904df8737da24fe829990daab53b6edb0e5b3",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 47,
+        "text": "Every night now I used to slip ashore towards ten o’clock at some\nlittle village, and buy ten or fifteen cents’ worth of meal or bacon or\nother stuff to eat; and sometimes I lifted a chicken that warn’t\nroosting comfortable, and took him along. Pap always said, take a\nchicken when you get a chance, because if you don’t want him yourself\nyou can easy find somebody that does, and a good deed ain’t ever\nforgot. I never see pap when he didn’t want the chicken himself, but\nthat is what he used to say, anyway.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-12-unit-02",
+          "chapter": "XII",
+          "char_start": 2236,
+          "char_end": 2745,
+          "char_count": 2745,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.12878576741801287,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25"
+    ],
+    "context_chars": 569,
+    "elapsed_ms": 0.42550000011942757,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "In Chapter VI, how long does Pap leave Huck locked in the cabin on one occasion?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 17,
+        "evidence": "Once he locked me in and was gone three days."
+      }
+    ],
+    "results": [
+      {
+        "id": "18dcf0d8aa611fc3c4e2acbf52eeae9c35473865f7061603d016fd8ed3d1fe43",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 17,
+        "text": "But by-and-by pap got too handy with his hick’ry, and I couldn’t stand\nit. I was all over welts. He got to going away so much, too, and\nlocking me in. Once he locked me in and was gone three days. It was\ndreadful lonesome. I judged he had got drownded, and I wasn’t ever\ngoing to get out any more. I was scared. I made up my mind I would fix\nup some way to leave there. I had tried to get out of that cabin many a\ntime, but I couldn’t find no way. There warn’t a window to it big\nenough for a dog to get through. I couldn’t get up the chimbly; it was\ntoo narrow. The door was thick, solid oak slabs. Pap was pretty careful\nnot to leave a knife or anything in the cabin when he was away; I\nreckon I had hunted the place over as much as a hundred times; well, I\nwas most all the time at it, because it was about the only way to put\nin the time. But this time I found something at last; I found an old\nrusty wood-saw without any handle; it was laid in between a rafter and\nthe clapboards of the roof. I ",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-02",
+          "chapter": "VI",
+          "char_start": 0,
+          "char_end": 1000,
+          "char_count": 2942,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18842058601350248,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "60375bef3cb54f1dade24078a1eae817d1d91c724e3c8d6d118214939857ee2f",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 16,
+        "text": "He kept me with him all the time, and I never got a chance to run off.\nWe lived in that old cabin, and he always locked the door and put the\nkey under his head nights. He had a gun which he had stole, I reckon,\nand we fished and hunted, and that was what we lived on. Every little\nwhile he locked me in and went down to the store, three miles, to the\nferry, and traded fish and game for whisky, and fetched it home and got\ndrunk and had a good time, and licked me. The widow she found out where\nI was by-and-by, and she sent a man over to try to get hold of me; but\npap drove him off with the gun, and it warn’t long after that till I\nwas used to being where I was, and liked it—all but the cowhide part.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-01",
+          "chapter": "VI",
+          "char_start": 1361,
+          "char_end": 2065,
+          "char_count": 2719,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.16594517853261453,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "69de07ca4cb9c2aaa92104f4febdbf0dbe3cedc723a67ff61a970d3e2f3f392d",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 17,
+        "text": "greased it up and went to work. There was\nan old horse-blanket nailed against the logs at the far end of the\ncabin behind the table, to keep the wind from blowing through the\nchinks and putting the candle out. I got under the table and raised the\nblanket, and went to work to saw a section of the big bottom log\nout—big enough to let me through. Well, it was a good long job, but I\nwas getting towards the end of it when I heard pap’s gun in the woods.\nI got rid of the signs of my work, and dropped the blanket and hid my\nsaw, and pretty soon pap come in.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-02",
+          "chapter": "VI",
+          "char_start": 1000,
+          "char_end": 1556,
+          "char_count": 2942,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.11222365958867436,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[69de07ca4cb9c2aaa92104f4febdbf0dbe3cedc723a67ff61a970d3e2f3f392d | Adventures of Huckleberry Finn — Chapters I–XII | page 17]\ngreased it up and went to work. There was\nan old horse-blanket nailed against the logs at the far end of the\ncabin behind the table, to keep the wind from blowing through the\nchinks and putting the candle out. I got under the table and raised the\nblanket, and went to work to saw a section of the big bottom log\nout—big enough to let me through. Well, it was a good long job, but I\nwas getting towards the end of it when I heard pap’s gun in the woods.\nI got rid of the signs of my work, and dropped the blanket and hid my\nsaw, and pretty soon pap come in.",
+    "context_ids": [
+      "69de07ca4cb9c2aaa92104f4febdbf0dbe3cedc723a67ff61a970d3e2f3f392d"
+    ],
+    "context_chars": 683,
+    "elapsed_ms": 0.5617000001620909,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "What does Pap say the jug of whisky contains enough for?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 20,
+        "evidence": "After supper pap took the jug, and said he had enough whisky there for\ntwo drunks and one delirium tremens."
+      }
+    ],
+    "results": [
+      {
+        "id": "2a86e2c31f2ffccaf8f4460a13c568a3109b93cf67ef31a2f96abb72261282cb",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 38,
+        "text": "Jim sucked and sucked at the jug, and now and then he got out of his\nhead and pitched around and yelled; but every time he come to himself\nhe went to sucking at the jug again. His foot swelled up pretty big,\nand so did his leg; but by-and-by the drunk begun to come, and so I\njudged he was all right; but I’d druther been bit with a snake than\npap’s whisky.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-10-unit-02",
+          "chapter": "X",
+          "char_start": 0,
+          "char_end": 357,
+          "char_count": 2440,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23722465654200076,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "b2d670bee41cf7ace6e020f5922e1ccb88e6948430e7d3fd4046711ef4299d1e",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 20,
+        "text": "After supper pap took the jug, and said he had enough whisky there for\ntwo drunks and one delirium tremens. That was always his word. I judged\nhe would be blind drunk in about an hour, and then I would steal the\nkey, or saw myself out, one or t’other. He drank and drank, and tumbled\ndown on his blankets by-and-by; but luck didn’t run my way. He didn’t\ngo sound asleep, but was uneasy. He groaned and moaned and thrashed\naround this way and that for a long time. At last I got so sleepy I\ncouldn’t keep my eyes open all I could do, and so before I knowed what\nI was about I was sound asleep, and the candle burning.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-05",
+          "chapter": "VI",
+          "char_start": 0,
+          "char_end": 616,
+          "char_count": 3312,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.17564652665715952,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "40d6cecd0bbf1cb0ff9247866aa87a2352180d14525a9da5cf92fdcf11805d51",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 18,
+        "text": "The old man made me go to the skiff and fetch the things he had got.\nThere was a fifty-pound sack of corn meal, and a side of bacon,\nammunition, and a four-gallon jug of whisky, and an old book and two\nnewspapers for wadding, besides some tow. I toted up a load, and went\nback and set down on the bow of the skiff to rest. I thought it all\nover, and I reckoned I would walk off with the gun and some lines, and\ntake to the woods when I run away. I guessed I wouldn’t stay in one\nplace, but just tramp right across the country, mostly night times, and\nhunt and fish to keep alive, and so get so far away that the old man\nnor the widow couldn’t ever find me any more. I judged I would saw out\nand leave that night if pap got drunk enough, and I reckoned he would.\nI got so full of it I didn’t notice how long I was staying till the old\nman hollered and asked me whether I was asleep or drownded.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-06-unit-03",
+          "chapter": "VI",
+          "char_start": 0,
+          "char_end": 893,
+          "char_count": 2754,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.16299156746135487,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[2a86e2c31f2ffccaf8f4460a13c568a3109b93cf67ef31a2f96abb72261282cb | Adventures of Huckleberry Finn — Chapters I–XII | page 38]\nJim sucked and sucked at the jug, and now and then he got out of his\nhead and pitched around and yelled; but every time he come to himself\nhe went to sucking at the jug again. His foot swelled up pretty big,\nand so did his leg; but by-and-by the drunk begun to come, and so I\njudged he was all right; but I’d druther been bit with a snake than\npap’s whisky.",
+    "context_ids": [
+      "2a86e2c31f2ffccaf8f4460a13c568a3109b93cf67ef31a2f96abb72261282cb"
+    ],
+    "context_chars": 484,
+    "elapsed_ms": 0.4667000000608823,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What animal does Huck find while hunting for birds in the woods?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "evidence": "and was hunting around for some birds when I see a wild pig"
+      }
+    ],
+    "results": [
+      {
+        "id": "c58c46d9be028ef43113d6a15a8bbae4d62b506735cbcc316f123beb3c1f2706",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 23,
+        "text": "It was all grass clear to the canoe, so I hadn’t left a track. I\nfollowed around to see. I stood on the bank and looked out over the\nriver. All safe. So I took the gun and went up a piece into the woods,\nand was hunting around for some birds when I see a wild pig; hogs soon\nwent wild in them bottoms after they had got away from the prairie\nfarms. I shot this fellow and took him into camp.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-07-unit-03",
+          "chapter": "VII",
+          "char_start": 0,
+          "char_end": 391,
+          "char_count": 2442,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.20401873149399366,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.10870418647918371,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "9fa84863e3a29121b169870d0ed0c88d6b150d16d95348ff226b0ed8c6052924",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 10,
+        "text": "“Well,” says I, “I think they are a pack of flat-heads for not keeping\nthe palace themselves ’stead of fooling them away like that. And what’s\nmore—if I was one of them I would see a man in Jericho before I would\ndrop my business and come to him for the rubbing of an old tin lamp.”\n\n“How you talk, Huck Finn. Why, you’d _have_ to come when he rubbed it,\nwhether you wanted to or not.”\n\n“What! and I as high as a tree and as big as a church? All right, then;\nI _would_ come; but I lay I’d make that man climb the highest tree\nthere was in the country.”\n\n“Shucks, it ain’t no use to talk to you, Huck Finn. You don’t seem to\nknow anything, somehow—perfect saphead.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-03",
+          "chapter": "III",
+          "char_start": 1933,
+          "char_end": 2597,
+          "char_count": 3119,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.10822281004349844,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[c58c46d9be028ef43113d6a15a8bbae4d62b506735cbcc316f123beb3c1f2706 | Adventures of Huckleberry Finn — Chapters I–XII | page 23]\nIt was all grass clear to the canoe, so I hadn’t left a track. I\nfollowed around to see. I stood on the bank and looked out over the\nriver. All safe. So I took the gun and went up a piece into the woods,\nand was hunting around for some birds when I see a wild pig; hogs soon\nwent wild in them bottoms after they had got away from the prairie\nfarms. I shot this fellow and took him into camp.",
+    "context_ids": [
+      "c58c46d9be028ef43113d6a15a8bbae4d62b506735cbcc316f123beb3c1f2706"
+    ],
+    "context_chars": 518,
+    "elapsed_ms": 0.5192999999508174,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "After checking the bank, what does Huck conclude about whether anyone can see his tracks?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "evidence": "It was all grass clear to the canoe, so I hadn’t left a track."
+      }
+    ],
+    "results": [
+      {
+        "id": "9fa84863e3a29121b169870d0ed0c88d6b150d16d95348ff226b0ed8c6052924",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 10,
+        "text": "“Well,” says I, “I think they are a pack of flat-heads for not keeping\nthe palace themselves ’stead of fooling them away like that. And what’s\nmore—if I was one of them I would see a man in Jericho before I would\ndrop my business and come to him for the rubbing of an old tin lamp.”\n\n“How you talk, Huck Finn. Why, you’d _have_ to come when he rubbed it,\nwhether you wanted to or not.”\n\n“What! and I as high as a tree and as big as a church? All right, then;\nI _would_ come; but I lay I’d make that man climb the highest tree\nthere was in the country.”\n\n“Shucks, it ain’t no use to talk to you, Huck Finn. You don’t seem to\nknow anything, somehow—perfect saphead.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-03",
+          "chapter": "III",
+          "char_start": 1933,
+          "char_end": 2597,
+          "char_count": 3119,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.14608717846510055,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "25f35d2172460852fecd56e14eb18af0b379eb60d375ca20fd8b9da604825826",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 11,
+        "text": "I went down to the front garden and clumb over the stile where you go\nthrough the high board fence. There was an inch of new snow on the\nground, and I seen somebody’s tracks. They had come up from the quarry\nand stood around the stile a while, and then went on around the garden\nfence. It was funny they hadn’t come in, after standing around so. I\ncouldn’t make it out. It was very curious, somehow. I was going to\nfollow around, but I stooped down to look at the tracks first. I didn’t\nnotice anything at first, but next I did. There was a cross in the left\nboot-heel made with big nails, to keep off the devil.\n\nI was up in a second and shinning down the hill. I looked over my\nshoulder every now and then, but I didn’t see nobody. I was at Judge\nThatcher’s as quick as I could get there. He said:\n\n“Why, my boy, you are all out of breath. Did you come for your\ninterest?”\n\n“No, sir,” I says; “is there some for me?”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-04-unit-01",
+          "chapter": "IV",
+          "char_start": 1823,
+          "char_end": 2741,
+          "char_count": 2946,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1227707423714929,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.116707560358178,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[9fa84863e3a29121b169870d0ed0c88d6b150d16d95348ff226b0ed8c6052924 | Adventures of Huckleberry Finn — Chapters I–XII | page 10]\n“Well,” says I, “I think they are a pack of flat-heads for not keeping\nthe palace themselves ’stead of fooling them away like that. And what’s\nmore—if I was one of them I would see a man in Jericho before I would\ndrop my business and come to him for the rubbing of an old tin lamp.”\n\n“How you talk, Huck Finn. Why, you’d _have_ to come when he rubbed it,\nwhether you wanted to or not.”\n\n“What! and I as high as a tree and as big as a church? All right, then;\nI _would_ come; but I lay I’d make that man climb the highest tree\nthere was in the country.”\n\n“Shucks, it ain’t no use to talk to you, Huck Finn. You don’t seem to\nknow anything, somehow—perfect saphead.”",
+    "context_ids": [
+      "9fa84863e3a29121b169870d0ed0c88d6b150d16d95348ff226b0ed8c6052924"
+    ],
+    "context_chars": 791,
+    "elapsed_ms": 0.6502999999611347,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "When Huck wakes on Jackson's Island, what time does he estimate it is?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 26,
+        "evidence": "The sun was up so high when I waked that I judged it was after eight\no’clock."
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.20240356184642394,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "c3e453774922f8a9026c22e2b67700ad8d4037f7a6740578c87311066e6de005",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": "“Well, you’re innocent, ain’t you! Does three hundred dollars lay\naround every day for people to pick up? Some folks think the nigger\nain’t far from here. I’m one of them—but I hain’t talked it around. A\nfew days ago I was talking with an old couple that lives next door in\nthe log shanty, and they happened to say hardly anybody ever goes to\nthat island over yonder that they call Jackson’s Island. Don’t anybody\nlive there? says I. No, nobody, says they. I didn’t say any more, but I\ndone some thinking. I was pretty near certain I’d seen smoke over\nthere, about the head of the island, a day or two before that, so I\nsays to myself, like as not that nigger’s hiding over there; anyway,\nsays I, it’s worth the trouble to give the place a hunt. I hain’t seen\nany smoke sence, so I reckon maybe he’s gone, if it was him; but\nhusband’s going over to see—him and another man. He was gone up the\nriver; but he got back to-day, and I told him as soon as he got here\ntwo hours ago.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1728,
+          "char_end": 2705,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.1995721025238906,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "9ee86d780e2111e22db6f577e2868d3f2f5b5d46ea29c674d2d79cad2ece671a",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 24,
+        "text": "It was about dark now; so I dropped the canoe down the river under some\nwillows that hung over the bank, and waited for the moon to rise. I\nmade fast to a willow; then I took a bite to eat, and by-and-by laid\ndown in the canoe to smoke a pipe and lay out a plan. I says to myself,\nthey’ll follow the track of that sackful of rocks to the shore and then\ndrag the river for me. And they’ll follow that meal track to the lake\nand go browsing down the creek that leads out of it to find the robbers\nthat killed me and took the things. They won’t ever hunt the river for\nanything but my dead carcass. They’ll soon get tired of that, and won’t\nbother no more about me. All right; I can stop anywhere I want to.\nJackson’s Island is good enough for me; I know that island pretty well,\nand nobody ever comes there. And then I can paddle over to town nights,\nand slink around and pick up things I want. Jackson’s Island’s the\nplace.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-07-unit-04",
+          "chapter": "VII",
+          "char_start": 0,
+          "char_end": 922,
+          "char_count": 2596,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.184768209428285,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25"
+    ],
+    "context_chars": 569,
+    "elapsed_ms": 0.8302999999614258,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "In Chapter I, what does the widow say she intends to do for Huck?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 1,
+        "evidence": "The Widow Douglas\nshe took me for her son, and allowed she would sivilize me"
+      }
+    ],
+    "results": [
+      {
+        "id": "e373e4eb406b1400bdb6ee05f57189ad658cc65b8d1ebcaeafa3914032821ca5",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 2,
+        "text": "Her sister, Miss Watson, a tolerable slim old maid, with goggles on,\nhad just come to live with her, and took a set at me now with a\nspelling-book. She worked me middling hard for about an hour, and then\nthe widow made her ease up. I couldn’t stood it much longer. Then for\nan hour it was deadly dull, and I was fidgety. Miss Watson would say,\n“Don’t put your feet up there, Huckleberry;” and “Don’t scrunch up like\nthat, Huckleberry—set up straight;” and pretty soon she would say,\n“Don’t gap and stretch like that, Huckleberry—why don’t you try to\nbehave?” Then she told me all about the bad place, and I said I wished\nI was there. She got mad then, but I didn’t mean no harm. All I wanted\nwas to go somewheres; all I wanted was a change, I warn’t particular.\nShe said it was wicked to say what I said; said she wouldn’t say it for\nthe whole world; she was going to live so as to go to the good place.\nWell, I couldn’t see no advantage in going where she was going, so I\nmade up my mind I wouldn’t ",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-01-unit-02",
+          "chapter": "I",
+          "char_start": 544,
+          "char_end": 1544,
+          "char_count": 2045,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23519382109151876,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "42430bbaf0b39cd776af5c6343174c15968ec00869f0cc5cbe6e0e83791beae6",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 8,
+        "text": "I set down one time back in the woods, and had a long think about it. I\nsays to myself, if a body can get anything they pray for, why don’t\nDeacon Winn get back the money he lost on pork? Why can’t the widow get\nback her silver snuffbox that was stole? Why can’t Miss Watson fat up?\nNo, says I to myself, there ain’t nothing in it. I went and told the\nwidow about it, and she said the thing a body could get by praying for\nit was “spiritual gifts.” This was too many for me, but she told me\nwhat she meant—I must help other people, and do everything I could for\nother people, and look out for them all the time, and never think about\nmyself. This was including Miss Watson, as I took it. I went out in the\nwoods and turned it over in my mind a long time, but I couldn’t see no\nadvantage about it—except for the other people; so at last I reckoned I\nwouldn’t worry about it any more, but just let it go. Sometimes the\nwidow would take me one side and talk about Providence in a way to make\na body’s mo",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-03-unit-01",
+          "chapter": "III",
+          "char_start": 730,
+          "char_end": 1730,
+          "char_count": 2253,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.21221202941987355,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "0d81770ae784941c3f09291a7110336f9bc2c8e77cc45823b9fb4769104b38ac",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 1,
+        "text": "The widow she cried over me, and called me a poor lost lamb, and she\ncalled me a lot of other names, too, but she never meant no harm by it.\nShe put me in them new clothes again, and I couldn’t do nothing but\nsweat and sweat, and feel all cramped up. Well, then, the old thing\ncommenced again. The widow rung a bell for supper, and you had to come\nto time. When you got to the table you couldn’t go right to eating, but\nyou had to wait for the widow to tuck down her head and grumble a\nlittle over the victuals, though there warn’t really anything the\nmatter with them,—that is, nothing only everything was cooked by\nitself. In a barrel of odds and ends it is different; things get mixed\nup, and the juice kind of swaps around, and the things go better.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-01-unit-01",
+          "chapter": "I",
+          "char_start": 1456,
+          "char_end": 2209,
+          "char_count": 2506,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.2082709286014846,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.846400000000358,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "question": "What does Pap do with the three dollars Huck borrows from Judge Thatcher?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 15,
+        "evidence": "I\nborrowed three dollars from Judge Thatcher, and pap took it and got\ndrunk"
+      }
+    ],
+    "results": [
+      {
+        "id": "b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 14,
+        "text": "The judge and the widow went to law to get the court to take me away\nfrom him and let one of them be my guardian; but it was a new judge\nthat had just come, and he didn’t know the old man; so he said courts\nmustn’t interfere and separate families if they could help it; said\nhe’d druther not take a child away from its father. So Judge Thatcher\nand the widow had to quit on the business.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-05-unit-02",
+          "chapter": "V",
+          "char_start": 2334,
+          "char_end": 2721,
+          "char_count": 2721,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.23774284349236202,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "bb80253432c84d5eeebf507d1caf1229a74cd78baaa8aa0bc130542b7b7fc458",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": "“The nigger run off the very night Huck Finn was killed. So there’s a\nreward out for him—three hundred dollars. And there’s a reward out for\nold Finn, too—two hundred dollars. You see, he come to town the morning\nafter the murder, and told about it, and was out with ’em on the\nferry-boat hunt, and right away after he up and left. Before night they\nwanted to lynch him, but he was gone, you see. Well, next day they\nfound out the nigger was gone; they found out he hadn’t ben seen sence\nten o’clock the night the murder was done. So then they put it on him,\nyou see; and while they was full of it, next day, back comes old Finn,\nand went boo-hooing to Judge Thatcher to get money to hunt for the\nnigger all over Illinois with. The judge gave him some, and that\nevening he got drunk, and was around till after midnight with a couple\nof mighty hard-looking strangers, and then went off with them. Well, he\nhain’t come back sence, and they ain’t looking for him back till this\nthing blows over a little",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 0,
+          "char_end": 1000,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18717943484706984,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "53e347853e51a2e2237d206cd88cdf1f610e7a8a551aa82f52b25c5b1d448bc9",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 15,
+        "text": "That pleased the old man till he couldn’t rest. He said he’d cowhide me\ntill I was black and blue if I didn’t raise some money for him. I\nborrowed three dollars from Judge Thatcher, and pap took it and got\ndrunk, and went a-blowing around and cussing and whooping and carrying\non; and he kept it up all over town, with a tin pan, till most\nmidnight; then they jailed him, and next day they had him before court,\nand jailed him again for a week. But he said _he_ was satisfied; said\nhe was boss of his son, and he’d make it warm for _him_.",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-05-unit-03",
+          "chapter": "V",
+          "char_start": 0,
+          "char_end": 538,
+          "char_count": 2739,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.16864487303989142,
+        "strategy": "tfidf",
+        "hit": true
+      }
+    ],
+    "context": "[b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18 | Adventures of Huckleberry Finn — Chapters I–XII | page 14]\nThe judge and the widow went to law to get the court to take me away\nfrom him and let one of them be my guardian; but it was a new judge\nthat had just come, and he didn’t know the old man; so he said courts\nmustn’t interfere and separate families if they could help it; said\nhe’d druther not take a child away from its father. So Judge Thatcher\nand the widow had to quit on the business.",
+    "context_ids": [
+      "b10f46308b71905d8cc321c7bc34fceabeb513aa1504660a101d084166c50e18"
+    ],
+    "context_chars": 514,
+    "elapsed_ms": 0.5906999999751861,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "question": "In Chapter VII, what two signs does Huck leave to make people think he was killed?",
+    "strategy": "baseline_tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "filters": null,
+    "gold": [
+      {
+        "source_id": "huck_finn_early_journey",
+        "page": 23,
+        "evidence": "Well, last I pulled out some of my hair, and blooded the axe good, and\nstuck it on the back side, and slung the axe in the corner."
+      }
+    ],
+    "results": [
+      {
+        "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 41,
+        "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-11-unit-02",
+          "chapter": "XI",
+          "char_start": 1000,
+          "char_end": 1442,
+          "char_count": 2705,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.208506042750231,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "3b24b83cb299576b5c63ad460269a6da3af8455a5f84f3e41d2b6149f4d43933",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 21,
+        "text": "CHAPTER VII.\n\n“Git up! What you ’bout?”\n\nI opened my eyes and looked around, trying to make out where I was. It\nwas after sun-up, and I had been sound asleep. Pap was standing over me\nlooking sour and sick, too. He says:\n\n“What you doin’ with this gun?”\n\nI judged he didn’t know nothing about what he had been doing, so I\nsays:\n\n“Somebody tried to get in, so I was laying for him.”\n\n“Why didn’t you roust me out?”\n\n“Well, I tried to, but I couldn’t; I couldn’t budge you.”\n\n“Well, all right. Don’t stand there palavering all day, but out with\nyou and see if there’s a fish on the lines for breakfast. I’ll be along\nin a minute.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-07-unit-01",
+          "chapter": "VII",
+          "char_start": 0,
+          "char_end": 628,
+          "char_count": 2785,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.18004469713416668,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "4e773d481919b85bc9d1a8b839ca35ad310647ddec45af9598a796f838630c94",
+        "document_id": "huck_finn_early_journey",
+        "source_id": "huck_finn_early_journey",
+        "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+        "page": 30,
+        "text": "“But looky here, Huck, who wuz it dat ’uz killed in dat shanty ef it\nwarn’t you?”\n\nThen I told him the whole thing, and he said it was smart. He said Tom\nSawyer couldn’t get up no better plan than what I had. Then I says:\n\n“How do you come to be here, Jim, and how’d you get here?”\n\nHe looked pretty uneasy, and didn’t say nothing for a minute. Then he\nsays:\n\n“Maybe I better not tell.”\n\n“Why, Jim?”\n\n“Well, dey’s reasons. But you wouldn’ tell on me ef I uz to tell you,\nwould you, Huck?”\n\n“Blamed if I would, Jim.”\n\n“Well, I b’lieve you, Huck. I—I _run off_.”\n\n“Jim!”\n\n“But mind, you said you wouldn’ tell—you know you said you wouldn’\ntell, Huck.”\n\n“Well, I did. I said I wouldn’t, and I’ll stick to it. Honest _injun_,\nI will. People would call me a low-down Abolitionist and despise me for\nkeeping mum—but that don’t make no difference. I ain’t a-going to tell,\nand I ain’t a-going back there, anyways. So, now, le’s know all about\nit.”",
+        "metadata": {
+          "author": "Mark Twain",
+          "language": "en",
+          "work_type": "novel",
+          "unit_id": "chapter-08-unit-05",
+          "chapter": "VIII",
+          "char_start": 985,
+          "char_end": 1925,
+          "char_count": 2599,
+          "location_type": "text_unit",
+          "extraction_status": "ok"
+        },
+        "score": 0.14123395819846238,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+    "context_ids": [
+      "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25"
+    ],
+    "context_chars": 569,
+    "elapsed_ms": 0.7040000000415603,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

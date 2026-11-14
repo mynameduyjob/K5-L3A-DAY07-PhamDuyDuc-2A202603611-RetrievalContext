@@ -1,0 +1,672 @@
+[
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "In Chapter X, what bites Jim when he lies down on the blanket?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Based on the text, the evidence indicates this directly [4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955].",
+    "citations": [
+      "4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "what bites Jim when he lies down on the blanket?",
+        "filter": {
+          "chapter": "X"
+        },
+        "results": [
+          {
+            "id": "4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 37,
+            "text": "It did come, too. It was a Tuesday that we had that talk. Well, after\ndinner Friday we was laying around in the grass at the upper end of the\nridge, and got out of tobacco. I went to the cavern to get some, and\nfound a rattlesnake in there. I killed him, and curled him up on the\nfoot of Jim’s blanket, ever so natural, thinking there’d be some fun\nwhen Jim found him there. Well, by night I forgot all about the snake,\nand when Jim flung himself down on the blanket while I struck a light\nthe snake’s mate was there, and bit him.\n\nHe jumped up yelling, and the first thing the light showed was the\nvarmint curled up and ready for another spring. I laid him out in a\nsecond with a stick, and Jim grabbed pap’s whisky-jug and begun to pour\nit down.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-10-unit-01",
+              "chapter": "X",
+              "char_start": 1325,
+              "char_end": 2072,
+              "char_count": 2701,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.032018442622950824,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "04a8c170daa7d82ff28a87346fe634ecc5f5788ba0e10c98ab13d35cdbda5d70",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 38,
+            "text": "Jim was laid up for four days and nights. Then the swelling was all\ngone and he was around again. I made up my mind I wouldn’t ever take\na-holt of a snake-skin again with my hands, now that I see what had\ncome of it. Jim said he reckoned I would believe him next time. And he\nsaid that handling a snake-skin was such awful bad luck that maybe we\nhadn’t got to the end of it yet. He said he druther see the new moon\nover his left shoulder as much as a thousand times than take up a\nsnake-skin in his hand. Well, I was getting to feel that way myself,\nthough I’ve always reckoned that looking at the new moon over your left\nshoulder is one of the carelessest and foolishest things a body can do.\nOld Hank Bunker done it once, and bragged about it; and in less than\ntwo years he got drunk and fell off of the shot-tower, and spread\nhimself out so that he was just a kind of a layer, as you may say; and\nthey slid him edgeways between two barn doors for a coffin, and buried\nhim so, so they say, but I di",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-10-unit-02",
+              "chapter": "X",
+              "char_start": 359,
+              "char_end": 1359,
+              "char_count": 2440,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 37,
+            "text": "He was barefooted, and the snake bit him right on the heel. That all\ncomes of my being such a fool as to not remember that wherever you\nleave a dead snake its mate always comes there and curls around it. Jim\ntold me to chop off the snake’s head and throw it away, and then skin\nthe body and roast a piece of it. I done it, and he eat it and said it\nwould help cure him. He made me take off the rattles and tie them\naround his wrist, too. He said that that would help. Then I slid out\nquiet and throwed the snakes clear away amongst the bushes; for I\nwarn’t going to let Jim find out it was all my fault, not if I could\nhelp it.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-10-unit-01",
+              "chapter": "X",
+              "char_start": 2074,
+              "char_end": 2701,
+              "char_count": 2701,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03149801587301587,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955 | Adventures of Huckleberry Finn — Chapters I–XII | page 37]\nIt did come, too. It was a Tuesday that we had that talk. Well, after\ndinner Friday we was laying around in the grass at the upper end of the\nridge, and got out of tobacco. I went to the cavern to get some, and\nfound a rattlesnake in there. I killed him, and curled him up on the\nfoot of Jim’s blanket, ever so natural, thinking there’d be some fun\nwhen Jim found him there. Well, by night I forgot all about the snake,\nand when Jim flung himself down on the blanket while I struck a light\nthe snake’s mate was there, and bit him.\n\nHe jumped up yelling, and the first thing the light showed was the\nvarmint curled up and ready for another spring. I laid him out in a\nsecond with a stick, and Jim grabbed pap’s whisky-jug and begun to pour\nit down.\n\n[ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2 | Adventures of Huckleberry Finn — Chapters I–XII | page 37]\nHe was barefooted, and the snake bit him right on the heel. That all\ncomes of my being such a fool as to not remember that wherever you\nleave a dead snake its mate always comes there and curls around it. Jim\ntold me to chop off the snake’s head and throw it away, and then skin\nthe body and roast a piece of it. I done it, and he eat it and said it\nwould help cure him. He made me take off the rattles and tie them\naround his wrist, too. He said that that would help. Then I slid out\nquiet and throwed the snakes clear away amongst the bushes; for I\nwarn’t going to let Jim find out it was all my fault, not if I could\nhelp it.",
+        "context_ids": [
+          "4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955",
+          "ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 0.30048360000000685
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "In Chapter XII, what danger does Jim suspect if they board the wreck?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Based on the text, the evidence indicates this directly [471ce8aebc54c9e0487402de5b1990ed37f5620b2c05fa320775e93bb47aa79a].",
+    "citations": [
+      "471ce8aebc54c9e0487402de5b1990ed37f5620b2c05fa320775e93bb47aa79a"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "what danger does Jim suspect if they board the wreck?",
+        "filter": {
+          "chapter": "XII"
+        },
+        "results": [
+          {
+            "id": "471ce8aebc54c9e0487402de5b1990ed37f5620b2c05fa320775e93bb47aa79a",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 46,
+            "text": "We had mountains on the Missouri shore and heavy timber on the Illinois\nside, and the channel was down the Missouri shore at that place, so we\nwarn’t afraid of anybody running across us. We laid there all day, and\nwatched the rafts and steamboats spin down the Missouri shore, and\nup-bound steamboats fight the big river in the middle. I told Jim all\nabout the time I had jabbering with that woman; and Jim said she was a\nsmart one, and if she was to start after us herself _she_ wouldn’t set\ndown and watch a camp fire—no, sir, she’d fetch a dog. Well, then, I\nsaid, why couldn’t she tell her husband to fetch a dog? Jim said he bet\nshe did think of it by the time the men was ready to start, and he\nbelieved they must a gone up-town to get a dog and so they lost all\nthat time, or else we wouldn’t be here on a tow-head sixteen or\nseventeen mile below the village—no, indeedy, we would be in that same\nold town again. So I said I didn’t care what was the reason they didn’t\nget us as long as they d",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-12-unit-01",
+              "chapter": "XII",
+              "char_start": 1088,
+              "char_end": 2088,
+              "char_count": 2094,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "55e7cea3aa0473259ecb2aa65f6a3e19b8f694266da3000746bfa3f085604791",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 48,
+            "text": "Well, it being away in the night and stormy, and all so\nmysterious-like, I felt just the way any other boy would a felt when I\nsee that wreck laying there so mournful and lonesome in the middle of\nthe river. I wanted to get aboard of her and slink around a little, and\nsee what there was there. So I says:\n\n“Le’s land on her, Jim.”\n\nBut Jim was dead against it at first. He says:\n\n“I doan’ want to go fool’n ’long er no wrack. We’s doin’ blame’ well,\nen we better let blame’ well alone, as de good book says. Like as not\ndey’s a watchman on dat wrack.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-12-unit-03",
+              "chapter": "XII",
+              "char_start": 1986,
+              "char_end": 2538,
+              "char_count": 2538,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "08663badc22c3366c936b1026a43e1cb8def91e2716ef18d854048f0abe61ce8",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 46,
+            "text": "CHAPTER XII.\n\nIt must a been close on to one o’clock when we got below the island at\nlast, and the raft did seem to go mighty slow. If a boat was to come\nalong we was going to take to the canoe and break for the Illinois\nshore; and it was well a boat didn’t come, for we hadn’t ever thought\nto put the gun in the canoe, or a fishing-line, or anything to eat. We\nwas in ruther too much of a sweat to think of so many things. It warn’t\ngood judgment to put _everything_ on the raft.\n\nIf the men went to the island I just expect they found the camp fire I\nbuilt, and watched it all night for Jim to come. Anyways, they stayed\naway from us, and if my building the fire never fooled them it warn’t\nno fault of mine. I played it as low down on them as I could.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-12-unit-01",
+              "chapter": "XII",
+              "char_start": 0,
+              "char_end": 754,
+              "char_count": 2094,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[471ce8aebc54c9e0487402de5b1990ed37f5620b2c05fa320775e93bb47aa79a | Adventures of Huckleberry Finn — Chapters I–XII | page 46]\nWe had mountains on the Missouri shore and heavy timber on the Illinois\nside, and the channel was down the Missouri shore at that place, so we\nwarn’t afraid of anybody running across us. We laid there all day, and\nwatched the rafts and steamboats spin down the Missouri shore, and\nup-bound steamboats fight the big river in the middle. I told Jim all\nabout the time I had jabbering with that woman; and Jim said she was a\nsmart one, and if she was to start after us herself _she_ wouldn’t set\ndown and watch a camp fire—no, sir, she’d fetch a dog. Well, then, I\nsaid, why couldn’t she tell her husband to fetch a dog? Jim said he bet\nshe did think of it by the time the men was ready to start, and he\nbelieved they must a gone up-town to get a dog and so they lost all\nthat time, or else we wouldn’t be here on a tow-head sixteen or\nseventeen mile below the village—no, indeedy, we would be in that same\nold town again. So I said I didn’t care what was the reason they didn’t\nget us as long as they d",
+        "context_ids": [
+          "471ce8aebc54c9e0487402de5b1990ed37f5620b2c05fa320775e93bb47aa79a"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 0.27379550000000563
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "question": "In Chapter IX, why does Jim want their supplies moved into the cavern?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Based on the text, the evidence indicates this directly [e15ef3289cd49ada362166b3040516e554448849c9902ec9f9bc881c8f96a3f1].",
+    "citations": [
+      "e15ef3289cd49ada362166b3040516e554448849c9902ec9f9bc881c8f96a3f1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "why does Jim want their supplies moved into the cavern?",
+        "filter": {
+          "chapter": "IX"
+        },
+        "results": [
+          {
+            "id": "e15ef3289cd49ada362166b3040516e554448849c9902ec9f9bc881c8f96a3f1",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 34,
+            "text": "Jim said if we had the canoe hid in a good place, and had all the traps\nin the cavern, we could rush there if anybody was to come to the\nisland, and they would never find us without dogs. And, besides, he\nsaid them little birds had said it was going to rain, and did I want\nthe things to get wet?\n\nSo we went back and got the canoe, and paddled up abreast the cavern,\nand lugged all the traps up there. Then we hunted up a place close by\nto hide the canoe in, amongst the thick willows. We took some fish off\nof the lines and set them again, and begun to get ready for dinner.\n\nThe door of the cavern was big enough to roll a hogshead in, and on one\nside of the door the floor stuck out a little bit, and was flat and a\ngood place to build a fire on. So we built it there and cooked dinner.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-09-unit-01",
+              "chapter": "IX",
+              "char_start": 785,
+              "char_end": 1575,
+              "char_count": 2878,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "f5624d7ea44bcd8a0006250ad6a374e6eeb6e875bf65ba0d9fc9e0061be52ff5",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 34,
+            "text": "CHAPTER IX.\n\nI wanted to go and look at a place right about the middle of the island\nthat I’d found when I was exploring; so we started and soon got to it,\nbecause the island was only three miles long and a quarter of a mile\nwide.\n\nThis place was a tolerable long, steep hill or ridge about forty foot\nhigh. We had a rough time getting to the top, the sides was so steep\nand the bushes so thick. We tramped and clumb around all over it, and\nby-and-by found a good big cavern in the rock, most up to the top on\nthe side towards Illinois. The cavern was as big as two or three rooms\nbunched together, and Jim could stand up straight in it. It was cool in\nthere. Jim was for putting our traps in there right away, but I said we\ndidn’t want to be climbing up and down there all the time.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-09-unit-01",
+              "chapter": "IX",
+              "char_start": 0,
+              "char_end": 783,
+              "char_count": 2878,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "b3b9219ec3d6b9758a25dd540d689201c5e473557c0a05ab92e60aec37598374",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 36,
+            "text": "to carry off most of their stuff.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-09-unit-03",
+              "chapter": "IX",
+              "char_start": 1000,
+              "char_end": 1033,
+              "char_count": 2421,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03128054740957967,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[e15ef3289cd49ada362166b3040516e554448849c9902ec9f9bc881c8f96a3f1 | Adventures of Huckleberry Finn — Chapters I–XII | page 34]\nJim said if we had the canoe hid in a good place, and had all the traps\nin the cavern, we could rush there if anybody was to come to the\nisland, and they would never find us without dogs. And, besides, he\nsaid them little birds had said it was going to rain, and did I want\nthe things to get wet?\n\nSo we went back and got the canoe, and paddled up abreast the cavern,\nand lugged all the traps up there. Then we hunted up a place close by\nto hide the canoe in, amongst the thick willows. We took some fish off\nof the lines and set them again, and begun to get ready for dinner.\n\nThe door of the cavern was big enough to roll a hogshead in, and on one\nside of the door the floor stuck out a little bit, and was flat and a\ngood place to build a fire on. So we built it there and cooked dinner.\n\n[b3b9219ec3d6b9758a25dd540d689201c5e473557c0a05ab92e60aec37598374 | Adventures of Huckleberry Finn — Chapters I–XII | page 36]\nto carry off most of their stuff.",
+        "context_ids": [
+          "e15ef3289cd49ada362166b3040516e554448849c9902ec9f9bc881c8f96a3f1",
+          "b3b9219ec3d6b9758a25dd540d689201c5e473557c0a05ab92e60aec37598374"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 0.2326343000001998
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "question": "In Chapter XI, what does Mrs. Loftus say about the man who directed Huck to Goshen?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Based on the text, the evidence indicates this directly [ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b].",
+    "citations": [
+      "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "what does Mrs. Loftus say about the man who directed Huck to Goshen?",
+        "filter": {
+          "chapter": "XI"
+        },
+        "results": [
+          {
+            "id": "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 45,
+            "text": " lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-06",
+              "chapter": "XI",
+              "char_start": 1000,
+              "char_end": 1519,
+              "char_count": 3186,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "021f40bb707c98c4fb5edaf54a3e97e1e90d853da3b688662973e34ddd0d4b29",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 44,
+            "text": "“Why, a man I met at daybreak this morning, just as I was going to turn\ninto the woods for my regular sleep. He told me when the roads forked I\nmust take the right hand, and five mile would fetch me to Goshen.”\n\n“He was drunk, I reckon. He told you just exactly wrong.”\n\n“Well, he did act like he was drunk, but it ain’t no matter now. I got\nto be moving along. I’ll fetch Goshen before daylight.”\n\n“Hold on a minute. I’ll put you up a snack to eat. You might want it.”\n\nSo she put me up a snack, and says:\n\n“Say, when a cow’s laying down, which end of her gets up first? Answer\nup prompt now—don’t stop to study over it. Which end gets up first?”\n\n“The hind end, mum.”\n\n“Well, then, a horse?”\n\n“The for’rard end, mum.”\n\n“Which side of a tree does the moss grow on?”\n\n“North side.”\n\n“If fifteen cows is browsing on a hillside, how many of them eats with\ntheir heads pointed the same direction?”\n\n“The whole fifteen, mum.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-05",
+              "chapter": "XI",
+              "char_start": 937,
+              "char_end": 1858,
+              "char_count": 2010,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 41,
+            "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-02",
+              "chapter": "XI",
+              "char_start": 1000,
+              "char_end": 1442,
+              "char_count": 2705,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b | Adventures of Huckleberry Finn — Chapters I–XII | page 45]\n lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”\n\n[021f40bb707c98c4fb5edaf54a3e97e1e90d853da3b688662973e34ddd0d4b29 | Adventures of Huckleberry Finn — Chapters I–XII | page 44]\n“Why, a man I met at daybreak this morning, just as I was going to turn\ninto the woods for my regular sleep. He told me when the roads forked I\nmust take the right hand, and five mile would fetch me to Goshen.”\n\n“He was drunk, I reckon. He told you just exactly wrong.”\n\n“Well, he did act like he was drunk, but it ain’t no matter now. I got\nto be moving along. I’ll fetch Goshen before daylight.”\n\n“Hold on a minute. I’ll put you up a snack to eat. You might want it.”\n\nSo she put me up a snack, and says:\n\n“Say, when a cow’s laying down, which end of her gets up first? Answer\nup prompt now—don’t stop to study over it. Which end gets up first?”\n\n“The hind end, mum.”\n\n“Well, then, a horse?”\n\n“The for’rard end, mum.”\n\n“Which side of a tree does the moss grow on?”\n\n“North side.”\n\n“If fifteen cows is browsing on a hillside, how many of them eats with\ntheir heads pointed the same direction?”\n\n“The whole fifteen, mum.”",
+        "context_ids": [
+          "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b",
+          "021f40bb707c98c4fb5edaf54a3e97e1e90d853da3b688662973e34ddd0d4b29"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 0.23451520000003256
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "question": "In Chapter XI, if Huck gets into trouble after leaving, whom does Mrs. Loftus tell him to contact, and what will she do?",
+    "answerable": true,
+    "status": "answered",
+    "answer": "Based on the text, the evidence indicates this directly [ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b].",
+    "citations": [
+      "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "if Huck gets into trouble after leaving, whom does Mrs. Loftus tell him to contact, and what will she do?",
+        "filter": {
+          "chapter": "XI"
+        },
+        "results": [
+          {
+            "id": "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 41,
+            "text": ", for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-02",
+              "chapter": "XI",
+              "char_start": 1000,
+              "char_end": 1442,
+              "char_count": 2705,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 45,
+            "text": " lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-06",
+              "chapter": "XI",
+              "char_start": 1000,
+              "char_end": 1519,
+              "char_count": 3186,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "654821b90e7837a3fd8cca5a625d91c7953982ca72ebf54b2df039b6c7c7177a",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 40,
+            "text": "She said she wouldn’t let me go by myself, but her husband would be in\nby-and-by, maybe in a hour and a half, and she’d send him along with\nme. Then she got to talking about her husband, and about her relations\nup the river, and her relations down the river, and about how much\nbetter off they used to was, and how they didn’t know but they’d made a\nmistake coming to our town, instead of letting well alone—and so on and\nso on, till I was afeard _I_ had made a mistake coming to her to find\nout what was going on in the town; but by-and-by she dropped on to pap\nand the murder, and then I was pretty willing to let her clatter right\nalong. She told about me and Tom Sawyer finding the six thousand\ndollars (only she got it ten) and all about pap and what a hard lot he\nwas, and what a hard lot I was, and at last she got down to where I was\nmurdered. I says:\n\n“Who done it? We’ve heard considerable about these goings on down in\nHookerville, but we don’t know who ’twas that killed Huck Finn.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-01",
+              "chapter": "XI",
+              "char_start": 999,
+              "char_end": 1993,
+              "char_count": 2440,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25 | Adventures of Huckleberry Finn — Chapters I–XII | page 41]\n, for people thinks now that he killed his boy\nand fixed things so folks would think robbers done it, and then he’d\nget Huck’s money without having to bother a long time with a lawsuit.\nPeople do say he warn’t any too good to do it. Oh, he’s sly, I reckon.\nIf he don’t come back for a year he’ll be all right. You can’t prove\nanything on him, you know; everything will be quieted down then, and\nhe’ll walk in Huck’s money as easy as nothing.”\n\n[ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b | Adventures of Huckleberry Finn — Chapters I–XII | page 45]\n lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”",
+        "context_ids": [
+          "766db6d60e22acd237fea19de61a2ec04e32bed3b9f6a779735c055e3725af25",
+          "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 0.3638954000000467
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "split": "test",
+    "question": "In Chapter X, what was the full name of the doctor who treated Jim's rattlesnake bite on Jackson's Island?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "what was the full name of the doctor who treated Jim's rattlesnake bite on Jackson's Island?",
+        "filter": null,
+        "results": [
+          {
+            "id": "4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 37,
+            "text": "It did come, too. It was a Tuesday that we had that talk. Well, after\ndinner Friday we was laying around in the grass at the upper end of the\nridge, and got out of tobacco. I went to the cavern to get some, and\nfound a rattlesnake in there. I killed him, and curled him up on the\nfoot of Jim’s blanket, ever so natural, thinking there’d be some fun\nwhen Jim found him there. Well, by night I forgot all about the snake,\nand when Jim flung himself down on the blanket while I struck a light\nthe snake’s mate was there, and bit him.\n\nHe jumped up yelling, and the first thing the light showed was the\nvarmint curled up and ready for another spring. I laid him out in a\nsecond with a stick, and Jim grabbed pap’s whisky-jug and begun to pour\nit down.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-10-unit-01",
+              "chapter": "X",
+              "char_start": 1325,
+              "char_end": 2072,
+              "char_count": 2701,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 37,
+            "text": "He was barefooted, and the snake bit him right on the heel. That all\ncomes of my being such a fool as to not remember that wherever you\nleave a dead snake its mate always comes there and curls around it. Jim\ntold me to chop off the snake’s head and throw it away, and then skin\nthe body and roast a piece of it. I done it, and he eat it and said it\nwould help cure him. He made me take off the rattles and tie them\naround his wrist, too. He said that that would help. Then I slid out\nquiet and throwed the snakes clear away amongst the bushes; for I\nwarn’t going to let Jim find out it was all my fault, not if I could\nhelp it.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-10-unit-01",
+              "chapter": "X",
+              "char_start": 2074,
+              "char_end": 2701,
+              "char_count": 2701,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "9ee86d780e2111e22db6f577e2868d3f2f5b5d46ea29c674d2d79cad2ece671a",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 24,
+            "text": "It was about dark now; so I dropped the canoe down the river under some\nwillows that hung over the bank, and waited for the moon to rise. I\nmade fast to a willow; then I took a bite to eat, and by-and-by laid\ndown in the canoe to smoke a pipe and lay out a plan. I says to myself,\nthey’ll follow the track of that sackful of rocks to the shore and then\ndrag the river for me. And they’ll follow that meal track to the lake\nand go browsing down the creek that leads out of it to find the robbers\nthat killed me and took the things. They won’t ever hunt the river for\nanything but my dead carcass. They’ll soon get tired of that, and won’t\nbother no more about me. All right; I can stop anywhere I want to.\nJackson’s Island is good enough for me; I know that island pretty well,\nand nobody ever comes there. And then I can paddle over to town nights,\nand slink around and pick up things I want. Jackson’s Island’s the\nplace.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-07-unit-04",
+              "chapter": "VII",
+              "char_start": 0,
+              "char_end": 922,
+              "char_count": 2596,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955 | Adventures of Huckleberry Finn — Chapters I–XII | page 37]\nIt did come, too. It was a Tuesday that we had that talk. Well, after\ndinner Friday we was laying around in the grass at the upper end of the\nridge, and got out of tobacco. I went to the cavern to get some, and\nfound a rattlesnake in there. I killed him, and curled him up on the\nfoot of Jim’s blanket, ever so natural, thinking there’d be some fun\nwhen Jim found him there. Well, by night I forgot all about the snake,\nand when Jim flung himself down on the blanket while I struck a light\nthe snake’s mate was there, and bit him.\n\nHe jumped up yelling, and the first thing the light showed was the\nvarmint curled up and ready for another spring. I laid him out in a\nsecond with a stick, and Jim grabbed pap’s whisky-jug and begun to pour\nit down.\n\n[ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2 | Adventures of Huckleberry Finn — Chapters I–XII | page 37]\nHe was barefooted, and the snake bit him right on the heel. That all\ncomes of my being such a fool as to not remember that wherever you\nleave a dead snake its mate always comes there and curls around it. Jim\ntold me to chop off the snake’s head and throw it away, and then skin\nthe body and roast a piece of it. I done it, and he eat it and said it\nwould help cure him. He made me take off the rattles and tie them\naround his wrist, too. He said that that would help. Then I slid out\nquiet and throwed the snakes clear away amongst the bushes; for I\nwarn’t going to let Jim find out it was all my fault, not if I could\nhelp it.",
+        "context_ids": [
+          "4d2796d21f97232d6f54fa440075abbb291e11bcf047ae3cd047ce2b7df84955",
+          "ecd9cfdec79e5f3e985b16b124dc123419f071b28e4052126e1d8dc7a7f928a2"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_seconds": 0.2153595999998288
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "split": "test",
+    "question": "In Chapter XI, how many children did Mrs. Judith Loftus mention living in her cabin?",
+    "answerable": false,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "how many children did Mrs. Judith Loftus mention living in her cabin?",
+        "filter": null,
+        "results": [
+          {
+            "id": "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 45,
+            "text": " lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-06",
+              "chapter": "XI",
+              "char_start": 1000,
+              "char_end": 1519,
+              "char_count": 3186,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "654821b90e7837a3fd8cca5a625d91c7953982ca72ebf54b2df039b6c7c7177a",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 40,
+            "text": "She said she wouldn’t let me go by myself, but her husband would be in\nby-and-by, maybe in a hour and a half, and she’d send him along with\nme. Then she got to talking about her husband, and about her relations\nup the river, and her relations down the river, and about how much\nbetter off they used to was, and how they didn’t know but they’d made a\nmistake coming to our town, instead of letting well alone—and so on and\nso on, till I was afeard _I_ had made a mistake coming to her to find\nout what was going on in the town; but by-and-by she dropped on to pap\nand the murder, and then I was pretty willing to let her clatter right\nalong. She told about me and Tom Sawyer finding the six thousand\ndollars (only she got it ten) and all about pap and what a hard lot he\nwas, and what a hard lot I was, and at last she got down to where I was\nmurdered. I says:\n\n“Who done it? We’ve heard considerable about these goings on down in\nHookerville, but we don’t know who ’twas that killed Huck Finn.”",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-11-unit-01",
+              "chapter": "XI",
+              "char_start": 999,
+              "char_end": 1993,
+              "char_count": 2440,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "6758fce5a195c84d838bd03ae6ee8686cd8b1a89090c8d99229eec9827a009d6",
+            "document_id": "huck_finn_early_journey",
+            "source_id": "huck_finn_early_journey",
+            "source": "Adventures of Huckleberry Finn — Chapters I–XII",
+            "page": 35,
+            "text": "One night we catched a little section of a lumber raft—nice pine\nplanks. It was twelve foot wide and about fifteen or sixteen foot long,\nand the top stood above water six or seven inches—a solid, level floor.\nWe could see saw-logs go by in the daylight sometimes, but we let them\ngo; we didn’t show ourselves in daylight.\n\nAnother night when we was up at the head of the island, just before\ndaylight, here comes a frame-house down, on the west side. She was a\ntwo-story, and tilted over considerable. We paddled out and got\naboard—clumb in at an upstairs window. But it was too dark to see yet,\nso we made the canoe fast and set in her to wait for daylight.",
+            "metadata": {
+              "author": "Mark Twain",
+              "language": "en",
+              "work_type": "novel",
+              "unit_id": "chapter-09-unit-02",
+              "chapter": "IX",
+              "char_start": 1430,
+              "char_end": 2087,
+              "char_count": 2794,
+              "location_type": "text_unit",
+              "extraction_status": "ok"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b | Adventures of Huckleberry Finn — Chapters I–XII | page 45]\n lump of lead. Why, I\nspotted you for a boy when you was threading the needle; and I\ncontrived the other things just to make certain. Now trot along to your\nuncle, Sarah Mary Williams George Elexander Peters, and if you get into\ntrouble you send word to Mrs. Judith Loftus, which is me, and I’ll do\nwhat I can to get you out of it. Keep the river road all the way, and\nnext time you tramp take shoes and socks with you. The river road’s a\nrocky one, and your feet’ll be in a condition when you get to Goshen, I\nreckon.”\n\n[654821b90e7837a3fd8cca5a625d91c7953982ca72ebf54b2df039b6c7c7177a | Adventures of Huckleberry Finn — Chapters I–XII | page 40]\nShe said she wouldn’t let me go by myself, but her husband would be in\nby-and-by, maybe in a hour and a half, and she’d send him along with\nme. Then she got to talking about her husband, and about her relations\nup the river, and her relations down the river, and about how much\nbetter off they used to was, and how they didn’t know but they’d made a\nmistake coming to our town, instead of letting well alone—and so on and\nso on, till I was afeard _I_ had made a mistake coming to her to find\nout what was going on in the town; but by-and-by she dropped on to pap\nand the murder, and then I was pretty willing to let her clatter right\nalong. She told about me and Tom Sawyer finding the six thousand\ndollars (only she got it ten) and all about pap and what a hard lot he\nwas, and what a hard lot I was, and at last she got down to where I was\nmurdered. I says:\n\n“Who done it? We’ve heard considerable about these goings on down in\nHookerville, but we don’t know who ’twas that killed Huck Finn.”",
+        "context_ids": [
+          "ffa222bcb0818c991bc2b22f6fd15e1c83d155972128a88a50b77a30b551234b",
+          "654821b90e7837a3fd8cca5a625d91c7953982ca72ebf54b2df039b6c7c7177a"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_seconds": 0.23647129999994831
+  }
+]

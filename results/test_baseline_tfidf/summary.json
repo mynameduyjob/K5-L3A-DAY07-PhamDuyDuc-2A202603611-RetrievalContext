@@ -1,0 +1,17 @@
+{
+  "strategy": "test_baseline_tfidf",
+  "split": "test",
+  "n": 5,
+  "budget_chars": 800,
+  "use_filter": false,
+  "hit1": 1,
+  "hit1_rate": 0.2,
+  "hit3": 4,
+  "hit3_rate": 0.8,
+  "context_evidence_count": 2,
+  "context_evidence_rate": 0.4,
+  "avg_context_chars": 562.8,
+  "median_ms": 0.7605999999213964,
+  "mean_ms": 0.8674999999584543,
+  "cost_usd": 0.0
+}
